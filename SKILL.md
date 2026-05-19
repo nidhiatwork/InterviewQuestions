@@ -230,11 +230,27 @@ The goal is **one clickable hyperlink in Teams** that opens the markdown file in
 - Increment `rotationIndex = (rotationIndex + 1) % rotation.length`
 - Write `state.json` back
 
-### Step 6 — User-facing CLI output
+### Step 6 — Regenerate manifest & push to GitHub
+
+The skill folder is also a git repo backing the public website at `https://nidhiatwork.github.io/InterviewQuestions/`. After updating state.json, run:
+
+```powershell
+cd C:\Users\bhushanidhi\.copilot\skills\dsa-daily
+python scripts/build_manifest.py
+git add .
+git commit -m "Add <date> — <title> (<DS>)"
+git push origin main
+```
+
+GitHub Pages auto-redeploys within ~1 minute. The new question appears on the website without any manual intervention.
+
+If `git push` fails (auth, network, etc.), surface the error to the user but DO NOT roll back state.json — the local file is still the source of truth; the push can be retried later.
+
+### Step 7 — User-facing CLI output
 
 Print a one-line confirmation:
 ```
-✅ /dsa-daily picked — Array: LeetCode #15 "3Sum" — solution at C:\...\2026-05-03-3sum.md
+✅ /dsa-daily picked — Array: LeetCode #15 "3Sum" — playground/2026-05-03-3sum.py · pushed to GitHub
 ```
 
 ---
@@ -323,7 +339,17 @@ You are running the /dsa-daily cron in **Pick mode**.
    - content: `<b>[Sent from Nidhi's Claude]</b> - @Nidhi Bhushan<br><b>[Cron: /dsa-daily]</b><br><b>📚 Today's DSA Interview Question — <i>{dataStructure}</i></b><br><br><b>LeetCode #{leetcodeId}: <a href="{url}">{title}</a></b> · Medium<br>👉 <a href="{sharePointUrl}?web=1">Open <b>{date}-{slug}.md</b> in browser</a>`
    - The `?web=1` query param on the SharePoint URL forces inline browser rendering instead of a download. The user's browser markdown extension then renders the .md file.
 
-7. Update state.json: append to `askedQuestions[]` (include both `solutionFileUrl` and `sharePointUrl`), set `lastPicked` and `lastPickedDate`, increment `rotationIndex` mod 14, write back.
+7. Update state.json: append to `askedQuestions[]`, set `lastPicked` and `lastPickedDate`, increment `rotationIndex` mod 14, write back.
+
+7b. Regenerate manifest + push to GitHub so the website at https://nidhiatwork.github.io/InterviewQuestions/ updates automatically:
+    ```powershell
+    cd C:\Users\bhushanidhi\.copilot\skills\dsa-daily
+    python scripts/build_manifest.py
+    git add .
+    git commit -m "Add <date> — <title> (<DS>)"
+    git push origin main
+    ```
+    If the push fails, surface the error but don't roll back state.json.
 
 8. Print one-line confirmation in the CLI.
 
