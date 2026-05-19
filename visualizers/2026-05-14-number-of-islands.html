@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Number of Islands — DFS Flood Fill</title>
+<script>
+  (() => {
+    const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+    const theme =
+      param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --cp-bg: #f7f4ef;
+  --cp-bg-elevated: #fcfbf8;
+  --cp-surface: #ffffff;
+  --cp-surface-soft: #f5f5f5;
+  --cp-border: #dedede;
+  --cp-border-strong: #919191;
+  --cp-text: #242424;
+  --cp-text-muted: #5c5c5c;
+  --cp-text-soft: #6f6f6f;
+  --cp-accent: #b11f4b;
+  --cp-accent-hover: #9a1a41;
+  --cp-accent-soft: rgba(177, 31, 75, 0.08);
+  --cp-accent-fg: #ffffff;
+  --cp-success: #16a34a;
+  --cp-danger: #dc2626;
+  --cp-warning: #f59e0b;
+  --cp-link: #0078d4;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+  --cp-overlay: rgba(255, 255, 255, 0.8);
+  --cp-panel: rgba(255, 255, 255, 0.86);
+  --cp-panel-strong: rgba(255, 255, 255, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.55);
+  --cp-highlight: rgba(177, 31, 75, 0.12);
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --cp-bg: #3d3b3a;
+  --cp-bg-elevated: #343231;
+  --cp-surface: #292929;
+  --cp-surface-soft: #2e2e2e;
+  --cp-border: #474747;
+  --cp-border-strong: #5f5f5f;
+  --cp-text: #dedede;
+  --cp-text-muted: #919191;
+  --cp-text-soft: #b0b0b0;
+  --cp-accent: #fd8ea1;
+  --cp-accent-hover: #fb7b91;
+  --cp-accent-soft: rgba(253, 142, 161, 0.14);
+  --cp-accent-fg: #1a1a1a;
+  --cp-success: #4ade80;
+  --cp-danger: #f87171;
+  --cp-warning: #fbbf24;
+  --cp-link: #4da6ff;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+  --cp-overlay: rgba(41, 41, 41, 0.88);
+  --cp-panel: rgba(41, 41, 41, 0.72);
+  --cp-panel-strong: rgba(41, 41, 41, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.04);
+  --cp-highlight: rgba(253, 142, 161, 0.12);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--cp-bg);
+  color: var(--cp-text);
+  min-height: 100vh;
+  padding: 32px 16px;
+  line-height: 1.55;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.85rem;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: var(--cp-text-muted);
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(380px, 1fr) minmax(320px, 420px);
+  gap: 20px;
+}
+
+@media (max-width: 880px) {
+  .layout { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+}
+
+.card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--cp-accent-soft);
+  color: var(--cp-accent);
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.grid-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0 18px;
+}
+
+.grid {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  background: var(--cp-surface-soft);
+  border-radius: 10px;
+}
+
+.cell {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: background 0.25s ease, transform 0.18s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+/* Water = '0' */
+.cell[data-state="water"] {
+  background: #cfe7f5;
+  color: #1f5a7c;
+}
+html[data-theme="dark"] .cell[data-state="water"] {
+  background: #2a4a5e;
+  color: #b0d8ee;
+}
+
+/* Land = '1' */
+.cell[data-state="land"] {
+  background: #f3d7aa;
+  color: #6b4a1d;
+}
+html[data-theme="dark"] .cell[data-state="land"] {
+  background: #6b4a1d;
+  color: #f3d7aa;
+}
+
+/* Sunk = previously land, now overwritten to '0' (visited) */
+.cell[data-state="sunk"] {
+  background: #9ecae1;
+  color: #2c4a5e;
+  opacity: 0.55;
+}
+html[data-theme="dark"] .cell[data-state="sunk"] {
+  background: #355d75;
+  color: #88aac0;
+  opacity: 0.55;
+}
+
+/* The cursor — current outer-loop position */
+.cell.cursor {
+  outline: 3px solid var(--cp-accent);
+  outline-offset: 2px;
+  z-index: 2;
+}
+
+/* The DFS visiting cell — actively being processed */
+.cell.visiting {
+  background: var(--cp-warning) !important;
+  color: #2a2000 !important;
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(245, 158, 11, 0.45);
+  z-index: 3;
+}
+
+.cell.just-sunk {
+  animation: pulse 0.45s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1.15); box-shadow: 0 0 0 8px rgba(177,31,75,0.25); }
+  100% { transform: scale(1); box-shadow: none; }
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 16px 0 8px;
+  justify-content: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 9px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--cp-border-strong);
+  background: var(--cp-surface);
+  color: var(--cp-text);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, transform 0.1s;
+}
+button:hover { background: var(--cp-surface-soft); }
+button:active { transform: translateY(1px); }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.primary {
+  background: var(--cp-accent);
+  color: var(--cp-accent-fg);
+  border-color: var(--cp-accent);
+}
+button.primary:hover { background: var(--cp-accent-hover); }
+
+.speed {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--cp-text-muted);
+}
+.speed input[type="range"] { accent-color: var(--cp-accent); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+.stat {
+  background: var(--cp-surface-soft);
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+.stat-label { font-size: 0.72rem; color: var(--cp-text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.stat-value { font-size: 1.5rem; font-weight: 700; color: var(--cp-accent); margin-top: 4px; }
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--cp-text-muted);
+  justify-content: center;
+}
+.legend-item { display: flex; align-items: center; gap: 6px; }
+.swatch { width: 16px; height: 16px; border-radius: 4px; }
+
+.narration {
+  background: var(--cp-bg-elevated);
+  border: 1px solid var(--cp-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-top: 14px;
+  min-height: 70px;
+  font-size: 0.92rem;
+  color: var(--cp-text);
+}
+.narration .step-tag {
+  display: inline-block;
+  background: var(--cp-accent-soft);
+  color: var(--cp-accent);
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Code panel */
+pre.code {
+  background: var(--cp-bg-elevated);
+  border: 1px solid var(--cp-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  white-space: pre;
+}
+pre.code .line {
+  display: block;
+  padding: 0 6px;
+  margin: 0 -6px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+pre.code .line.active {
+  background: var(--cp-accent-soft);
+  color: var(--cp-accent);
+}
+pre.code .kw { color: var(--cp-accent); }
+pre.code .str { color: var(--cp-success); }
+pre.code .com { color: var(--cp-text-soft); font-style: italic; }
+
+.section-title {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.explainer { font-size: 0.95rem; }
+.explainer p { margin-bottom: 10px; }
+.explainer ul { padding-left: 22px; margin-bottom: 10px; }
+.explainer li { margin-bottom: 6px; }
+.explainer strong { color: var(--cp-accent); }
+
+.tip {
+  border-left: 3px solid var(--cp-accent);
+  padding: 8px 14px;
+  background: var(--cp-accent-soft);
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border-strong);
+  color: var(--cp-text);
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  z-index: 100;
+}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle">🌓 Theme</button>
+
+<div class="container">
+  <h1>Number of Islands — visualized</h1>
+  <p class="subtitle">LeetCode #200 · Watch DFS flood-fill consume each island one at a time. The counter ticks up once per island.</p>
+
+  <div class="layout">
+    <!-- Left: animated grid + controls -->
+    <div class="card">
+      <h2><span class="badge">Live</span> Grid + DFS walkthrough</h2>
+      <div class="grid-wrap"><div class="grid" id="grid"></div></div>
+
+      <div class="controls">
+        <button id="btnPlay" class="primary">▶ Play</button>
+        <button id="btnStep">⏭ Step</button>
+        <button id="btnReset">↻ Reset</button>
+      </div>
+
+      <div class="controls">
+        <div class="speed">
+          <span>Slow</span>
+          <input type="range" id="speed" min="60" max="700" value="280" step="20" />
+          <span>Fast</span>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><div class="stat-label">Islands</div><div class="stat-value" id="statIslands">0</div></div>
+        <div class="stat"><div class="stat-label">Cursor</div><div class="stat-value" id="statCursor">—</div></div>
+        <div class="stat"><div class="stat-label">DFS stack</div><div class="stat-value" id="statStack">0</div></div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><div class="swatch" style="background:#f3d7aa"></div> Land ('1')</div>
+        <div class="legend-item"><div class="swatch" style="background:#cfe7f5"></div> Water ('0')</div>
+        <div class="legend-item"><div class="swatch" style="background:#9ecae1; opacity:0.55"></div> Sunk (visited)</div>
+        <div class="legend-item"><div class="swatch" style="background:#f59e0b"></div> DFS visiting</div>
+        <div class="legend-item"><div class="swatch" style="border:3px solid #b11f4b;width:12px;height:12px"></div> Outer cursor</div>
+      </div>
+
+      <div class="narration" id="narration"><span class="step-tag">Ready</span>Press <strong>Play</strong> to watch the algorithm walk the grid. The 🟠 cell is the active DFS visit; the 🔴 outline is the outer-loop cursor scanning for fresh land.</div>
+    </div>
+
+    <!-- Right: code + counter sync -->
+    <div class="card">
+      <h2><span class="badge">Code</span> Python — synced to animation</h2>
+<pre class="code" id="codePanel"><span class="line" data-line="1"><span class="kw">def</span> numIslands(grid):</span>
+<span class="line" data-line="2">    rows, cols = len(grid), len(grid[0])</span>
+<span class="line" data-line="3">    count = 0</span>
+<span class="line" data-line="4"></span>
+<span class="line" data-line="5">    <span class="kw">def</span> dfs(r, c):</span>
+<span class="line" data-line="6">        <span class="kw">if</span> r &lt; 0 <span class="kw">or</span> r &gt;= rows <span class="kw">or</span> c &lt; 0 <span class="kw">or</span> c &gt;= cols <span class="kw">or</span> grid[r][c] != <span class="str">'1'</span>:</span>
+<span class="line" data-line="7">            <span class="kw">return</span>                          <span class="com"># off-grid or not land</span></span>
+<span class="line" data-line="8">        grid[r][c] = <span class="str">'0'</span>                   <span class="com"># sink: mark visited</span></span>
+<span class="line" data-line="9">        dfs(r+1, c); dfs(r-1, c); dfs(r, c+1); dfs(r, c-1)</span>
+<span class="line" data-line="10"></span>
+<span class="line" data-line="11">    <span class="kw">for</span> r <span class="kw">in</span> range(rows):</span>
+<span class="line" data-line="12">        <span class="kw">for</span> c <span class="kw">in</span> range(cols):</span>
+<span class="line" data-line="13">            <span class="kw">if</span> grid[r][c] == <span class="str">'1'</span>:</span>
+<span class="line" data-line="14">                count += 1                  <span class="com"># found a new island!</span></span>
+<span class="line" data-line="15">                dfs(r, c)                   <span class="com"># sink the whole thing</span></span>
+<span class="line" data-line="16">    <span class="kw">return</span> count</span></pre>
+    </div>
+  </div>
+
+  <h2 class="section-title"><span class="badge">Plain English</span> What you just watched</h2>
+  <div class="card explainer">
+    <p>The grid is a map. <strong>'1' = land</strong>, <strong>'0' = water</strong>. An <strong>island</strong> is a clump of land cells that touch each other horizontally or vertically (diagonals don't count). Your job: count the islands.</p>
+
+    <p><strong>The trick:</strong> when you find a land cell, "sink" the entire island it belongs to so you never count it again. Then keep walking. Every time you bump into land that hasn't been sunk yet → that's one more island.</p>
+
+    <p><strong>How to sink an island — DFS flood-fill (the orange cell in the animation):</strong></p>
+    <ul>
+      <li>Standing on a land cell, overwrite it to <code>'0'</code>.</li>
+      <li>Recursively do the same to its 4 neighbors (up, down, left, right).</li>
+      <li>Each recursive call either falls off the grid, hits water, or hits land it then sinks too — so the recursion naturally stops at the island's edge.</li>
+      <li>When DFS returns, the whole connected island is now <code>'0'</code> (the faded blue cells).</li>
+    </ul>
+
+    <p><strong>The outer cursor (red outline)</strong> just scans the grid left-to-right, top-to-bottom. It triggers a DFS only when it sees a fresh <code>'1'</code> — which is exactly once per island, hence one <code>count++</code> per island.</p>
+
+    <div class="tip">
+      <strong>Why this is O(m × n):</strong> each cell is touched at most twice — once by the outer cursor, once by a DFS visit. After DFS sinks a cell, the outer cursor will skip it on later passes (it's now <code>'0'</code>).
+    </div>
+
+    <p><strong>The single mental picture to remember:</strong> 🏝️ <em>"Walk the map. Every time you step on a new island, plant a flag (++count) and let the tide swallow it whole (DFS). Keep walking."</em></p>
+  </div>
+
+  <h2 class="section-title"><span class="badge">3 traps</span> What interviewers check</h2>
+  <div class="card explainer">
+    <ul>
+      <li><strong>Diagonals don't connect.</strong> The DFS recurses on exactly 4 directions — up, down, left, right. State this out loud before coding; it's the most common silent assumption.</li>
+      <li><strong>In-place mutation vs visited set.</strong> Overwriting <code>'1'</code> → <code>'0'</code> is O(1) extra space but mutates the input. If the interviewer says "don't touch the input," switch to a <code>visited</code> set — same algorithm, slightly more memory.</li>
+      <li><strong>Recursion depth.</strong> On a 300×300 all-land grid, DFS recursion is 90,000 deep — risky in Python. Mention you'd switch to BFS (queue) as the safer variant for very large grids.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// Animation engine
+// ============================================================================
+const grid0 = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+];
+const ROWS = grid0.length, COLS = grid0[0].length;
+
+// Build the DOM grid
+const gridEl = document.getElementById('grid');
+gridEl.style.gridTemplateColumns = `repeat(${COLS}, 58px)`;
+const cellEls = [];
+for (let r = 0; r < ROWS; r++) {
+  cellEls.push([]);
+  for (let c = 0; c < COLS; c++) {
+    const d = document.createElement('div');
+    d.className = 'cell';
+    cellEls[r].push(d);
+    gridEl.appendChild(d);
+  }
+}
+
+// State
+let grid, steps = [], stepIdx = 0, playing = false, timer, speed = 280;
+let islandCount = 0;
+
+const narrationEl = document.getElementById('narration');
+const statIslands = document.getElementById('statIslands');
+const statCursor = document.getElementById('statCursor');
+const statStack = document.getElementById('statStack');
+const speedEl = document.getElementById('speed');
+const btnPlay = document.getElementById('btnPlay');
+const btnStep = document.getElementById('btnStep');
+const btnReset = document.getElementById('btnReset');
+
+speedEl.addEventListener('input', e => { speed = +e.target.value; if (playing) { clearInterval(timer); startPlayLoop(); }});
+
+function snapshot(g) {
+  // deep copy for steps
+  return g.map(row => row.slice());
+}
+
+// Build a list of animation steps by SIMULATING the algorithm.
+function buildSteps() {
+  const g = snapshot(grid0);
+  const steps = [];
+  let count = 0;
+  // We track a virtual recursion stack just for the visualization.
+  // We expand iteratively in DFS order matching dfs(r+1)→dfs(r-1)→dfs(r,c+1)→dfs(r,c-1)
+  // so the animation matches the code.
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      steps.push({type:'cursor', r, c, line:13, msg:`Outer cursor at (${r},${c}). Cell = '${g[r][c]}'.`});
+      if (g[r][c] === '1') {
+        count++;
+        steps.push({type:'found', r, c, count, line:14, msg:`Found fresh land at (${r},${c})! Islands so far: ${count}. Starting DFS to sink it.`});
+        // Iterative DFS using an explicit stack so we can render the stack size.
+        // To match the code's recursion order (down, up, right, left), push neighbors
+        // in reverse order so they pop in the right order.
+        const stack = [[r, c]];
+        while (stack.length) {
+          const [cr, cc] = stack.pop();
+          if (cr < 0 || cr >= ROWS || cc < 0 || cc >= COLS) {
+            steps.push({type:'skip', r:cr, c:cc, stack: stack.length, line:6, msg:`DFS(${cr},${cc}) — off-grid, return.`});
+            continue;
+          }
+          if (g[cr][cc] !== '1') {
+            steps.push({type:'skip', r:cr, c:cc, stack: stack.length, line:6, msg:`DFS(${cr},${cc}) — water or already sunk, return.`});
+            continue;
+          }
+          // Sink it
+          g[cr][cc] = '0';
+          steps.push({type:'sink', r:cr, c:cc, stack: stack.length, line:8, msg:`DFS(${cr},${cc}) — sink land cell (set to '0'). Recurse on 4 neighbors.`});
+          // Push neighbors in REVERSE order (left, right, up, down) so they pop as (down, up, right, left)
+          stack.push([cr, cc-1]);
+          stack.push([cr, cc+1]);
+          stack.push([cr-1, cc]);
+          stack.push([cr+1, cc]);
+        }
+        steps.push({type:'doneIsland', r, c, count, line:15, msg:`DFS finished. Island #${count} fully sunk. Continue scanning…`});
+      }
+    }
+  }
+  steps.push({type:'done', count, line:16, msg:`Scan complete. Total islands: ${count}.`});
+  return steps;
+}
+
+function renderCell(r, c) {
+  const g = grid;
+  const el = cellEls[r][c];
+  el.textContent = g[r][c];
+  if (g[r][c] === '1') el.setAttribute('data-state', 'land');
+  else if (originalLand[r][c]) el.setAttribute('data-state', 'sunk');
+  else el.setAttribute('data-state', 'water');
+}
+
+let originalLand;
+
+function clearTransientClasses() {
+  for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+    cellEls[r][c].classList.remove('cursor', 'visiting', 'just-sunk');
+  }
+}
+
+function highlightLine(n) {
+  document.querySelectorAll('pre.code .line').forEach(el => {
+    el.classList.toggle('active', +el.dataset.line === n);
+  });
+}
+
+function applyStep(step) {
+  clearTransientClasses();
+
+  if (step.type === 'cursor') {
+    if (step.r >= 0 && step.r < ROWS) cellEls[step.r][step.c].classList.add('cursor');
+    statCursor.textContent = `(${step.r},${step.c})`;
+  } else if (step.type === 'found') {
+    cellEls[step.r][step.c].classList.add('cursor');
+    cellEls[step.r][step.c].classList.add('visiting');
+    islandCount = step.count;
+    statIslands.textContent = step.count;
+    statCursor.textContent = `(${step.r},${step.c})`;
+  } else if (step.type === 'sink') {
+    grid[step.r][step.c] = '0';
+    renderCell(step.r, step.c);
+    cellEls[step.r][step.c].classList.add('visiting');
+    cellEls[step.r][step.c].classList.add('just-sunk');
+    statStack.textContent = step.stack;
+  } else if (step.type === 'skip') {
+    if (step.r >= 0 && step.r < ROWS && step.c >= 0 && step.c < COLS) {
+      cellEls[step.r][step.c].classList.add('cursor');
+    }
+    statStack.textContent = step.stack;
+  } else if (step.type === 'doneIsland') {
+    statStack.textContent = 0;
+    cellEls[step.r][step.c].classList.add('cursor');
+  } else if (step.type === 'done') {
+    statStack.textContent = 0;
+  }
+
+  highlightLine(step.line);
+
+  // Narration
+  let tag;
+  if (step.type === 'cursor') tag = 'Scan';
+  else if (step.type === 'found') tag = 'Island ' + step.count;
+  else if (step.type === 'sink') tag = 'DFS sink';
+  else if (step.type === 'skip') tag = 'DFS skip';
+  else if (step.type === 'doneIsland') tag = 'Island done';
+  else tag = 'Complete';
+  narrationEl.innerHTML = `<span class="step-tag">${tag}</span>${step.msg}`;
+}
+
+function nextStep() {
+  if (stepIdx >= steps.length) {
+    stopPlay();
+    return false;
+  }
+  applyStep(steps[stepIdx]);
+  stepIdx++;
+  return true;
+}
+
+function startPlayLoop() {
+  timer = setInterval(() => {
+    if (!nextStep()) clearInterval(timer);
+  }, speed);
+}
+
+function play() {
+  if (playing) return;
+  playing = true;
+  btnPlay.textContent = '⏸ Pause';
+  btnPlay.classList.remove('primary');
+  startPlayLoop();
+}
+
+function stopPlay() {
+  playing = false;
+  btnPlay.textContent = stepIdx >= steps.length ? '↻ Replay' : '▶ Play';
+  btnPlay.classList.add('primary');
+  clearInterval(timer);
+}
+
+function reset() {
+  stopPlay();
+  grid = snapshot(grid0);
+  originalLand = grid0.map(row => row.map(v => v === '1'));
+  steps = buildSteps();
+  stepIdx = 0;
+  islandCount = 0;
+  statIslands.textContent = 0;
+  statCursor.textContent = '—';
+  statStack.textContent = 0;
+  for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) renderCell(r, c);
+  clearTransientClasses();
+  highlightLine(0);
+  narrationEl.innerHTML = `<span class="step-tag">Ready</span>Press <strong>Play</strong> to watch the algorithm walk the grid. The 🟠 cell is the active DFS visit; the 🔴 outline is the outer-loop cursor scanning for fresh land.`;
+  btnPlay.textContent = '▶ Play';
+  btnPlay.classList.add('primary');
+}
+
+btnPlay.addEventListener('click', () => {
+  if (stepIdx >= steps.length) { reset(); play(); return; }
+  if (playing) stopPlay(); else play();
+});
+btnStep.addEventListener('click', () => { if (playing) stopPlay(); nextStep(); });
+btnReset.addEventListener('click', reset);
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+});
+
+reset();
+</script>
+</body>
+</html>

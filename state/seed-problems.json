@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "note": "Curated Medium LeetCode problems frequently asked at Microsoft. Used as fallback when live LeetCode picking fails.",
+  "problems": [
+    { "ds": "Array",                "id": 15,   "title": "3Sum",                                            "slug": "3sum" },
+    { "ds": "Array",                "id": 11,   "title": "Container With Most Water",                       "slug": "container-with-most-water" },
+    { "ds": "Array",                "id": 56,   "title": "Merge Intervals",                                 "slug": "merge-intervals" },
+    { "ds": "Array",                "id": 238,  "title": "Product of Array Except Self",                    "slug": "product-of-array-except-self" },
+    { "ds": "Array",                "id": 53,   "title": "Maximum Subarray",                                "slug": "maximum-subarray" },
+
+    { "ds": "Hash Table",           "id": 49,   "title": "Group Anagrams",                                  "slug": "group-anagrams" },
+    { "ds": "Hash Table",           "id": 128,  "title": "Longest Consecutive Sequence",                    "slug": "longest-consecutive-sequence" },
+    { "ds": "Hash Table",           "id": 380,  "title": "Insert Delete GetRandom O(1)",                    "slug": "insert-delete-getrandom-o1" },
+    { "ds": "Hash Table",           "id": 560,  "title": "Subarray Sum Equals K",                           "slug": "subarray-sum-equals-k" },
+    { "ds": "Hash Table",           "id": 146,  "title": "LRU Cache",                                       "slug": "lru-cache" },
+
+    { "ds": "String",               "id": 5,    "title": "Longest Palindromic Substring",                   "slug": "longest-palindromic-substring" },
+    { "ds": "String",               "id": 3,    "title": "Longest Substring Without Repeating Characters",  "slug": "longest-substring-without-repeating-characters" },
+    { "ds": "String",               "id": 22,   "title": "Generate Parentheses",                            "slug": "generate-parentheses" },
+    { "ds": "String",               "id": 91,   "title": "Decode Ways",                                     "slug": "decode-ways" },
+    { "ds": "String",               "id": 6,    "title": "Zigzag Conversion",                               "slug": "zigzag-conversion" },
+
+    { "ds": "Linked List",          "id": 2,    "title": "Add Two Numbers",                                 "slug": "add-two-numbers" },
+    { "ds": "Linked List",          "id": 19,   "title": "Remove Nth Node From End of List",                "slug": "remove-nth-node-from-end-of-list" },
+    { "ds": "Linked List",          "id": 92,   "title": "Reverse Linked List II",                          "slug": "reverse-linked-list-ii" },
+    { "ds": "Linked List",          "id": 142,  "title": "Linked List Cycle II",                            "slug": "linked-list-cycle-ii" },
+    { "ds": "Linked List",          "id": 138,  "title": "Copy List with Random Pointer",                   "slug": "copy-list-with-random-pointer" },
+
+    { "ds": "Stack",                "id": 150,  "title": "Evaluate Reverse Polish Notation",                "slug": "evaluate-reverse-polish-notation" },
+    { "ds": "Stack",                "id": 71,   "title": "Simplify Path",                                   "slug": "simplify-path" },
+    { "ds": "Stack",                "id": 739,  "title": "Daily Temperatures",                              "slug": "daily-temperatures" },
+    { "ds": "Stack",                "id": 394,  "title": "Decode String",                                   "slug": "decode-string" },
+    { "ds": "Stack",                "id": 155,  "title": "Min Stack",                                       "slug": "min-stack" },
+
+    { "ds": "Queue",                "id": 622,  "title": "Design Circular Queue",                           "slug": "design-circular-queue" },
+    { "ds": "Queue",                "id": 1670, "title": "Design Front Middle Back Queue",                  "slug": "design-front-middle-back-queue" },
+    { "ds": "Queue",                "id": 950,  "title": "Reveal Cards In Increasing Order",                "slug": "reveal-cards-in-increasing-order" },
+    { "ds": "Queue",                "id": 649,  "title": "Dota2 Senate",                                    "slug": "dota2-senate" },
+    { "ds": "Queue",                "id": 353,  "title": "Design Snake Game",                               "slug": "design-snake-game" },
+
+    { "ds": "Binary Tree",          "id": 102,  "title": "Binary Tree Level Order Traversal",               "slug": "binary-tree-level-order-traversal" },
+    { "ds": "Binary Tree",          "id": 199,  "title": "Binary Tree Right Side View",                     "slug": "binary-tree-right-side-view" },
+    { "ds": "Binary Tree",          "id": 236,  "title": "Lowest Common Ancestor of a Binary Tree",         "slug": "lowest-common-ancestor-of-a-binary-tree" },
+    { "ds": "Binary Tree",          "id": 105,  "title": "Construct Binary Tree from Preorder and Inorder", "slug": "construct-binary-tree-from-preorder-and-inorder-traversal" },
+    { "ds": "Binary Tree",          "id": 124,  "title": "Binary Tree Maximum Path Sum",                    "slug": "binary-tree-maximum-path-sum" },
+
+    { "ds": "Binary Search Tree",   "id": 230,  "title": "Kth Smallest Element in a BST",                   "slug": "kth-smallest-element-in-a-bst" },
+    { "ds": "Binary Search Tree",   "id": 98,   "title": "Validate Binary Search Tree",                     "slug": "validate-binary-search-tree" },
+    { "ds": "Binary Search Tree",   "id": 235,  "title": "Lowest Common Ancestor of a BST",                 "slug": "lowest-common-ancestor-of-a-binary-search-tree" },
+    { "ds": "Binary Search Tree",   "id": 173,  "title": "Binary Search Tree Iterator",                     "slug": "binary-search-tree-iterator" },
+    { "ds": "Binary Search Tree",   "id": 450,  "title": "Delete Node in a BST",                            "slug": "delete-node-in-a-bst" },
+
+    { "ds": "Heap (Priority Queue)","id": 215,  "title": "Kth Largest Element in an Array",                 "slug": "kth-largest-element-in-an-array" },
+    { "ds": "Heap (Priority Queue)","id": 347,  "title": "Top K Frequent Elements",                         "slug": "top-k-frequent-elements" },
+    { "ds": "Heap (Priority Queue)","id": 692,  "title": "Top K Frequent Words",                            "slug": "top-k-frequent-words" },
+    { "ds": "Heap (Priority Queue)","id": 973,  "title": "K Closest Points to Origin",                      "slug": "k-closest-points-to-origin" },
+    { "ds": "Heap (Priority Queue)","id": 621,  "title": "Task Scheduler",                                  "slug": "task-scheduler" },
+
+    { "ds": "Graph",                "id": 200,  "title": "Number of Islands",                               "slug": "number-of-islands" },
+    { "ds": "Graph",                "id": 207,  "title": "Course Schedule",                                 "slug": "course-schedule" },
+    { "ds": "Graph",                "id": 133,  "title": "Clone Graph",                                     "slug": "clone-graph" },
+    { "ds": "Graph",                "id": 994,  "title": "Rotting Oranges",                                 "slug": "rotting-oranges" },
+    { "ds": "Graph",                "id": 695,  "title": "Max Area of Island",                              "slug": "max-area-of-island" },
+
+    { "ds": "Trie",                 "id": 208,  "title": "Implement Trie (Prefix Tree)",                    "slug": "implement-trie-prefix-tree" },
+    { "ds": "Trie",                 "id": 211,  "title": "Design Add and Search Words Data Structure",      "slug": "design-add-and-search-words-data-structure" },
+    { "ds": "Trie",                 "id": 648,  "title": "Replace Words",                                   "slug": "replace-words" },
+    { "ds": "Trie",                 "id": 677,  "title": "Map Sum Pairs",                                   "slug": "map-sum-pairs" },
+    { "ds": "Trie",                 "id": 421,  "title": "Maximum XOR of Two Numbers in an Array",          "slug": "maximum-xor-of-two-numbers-in-an-array" },
+
+    { "ds": "Binary Search",        "id": 33,   "title": "Search in Rotated Sorted Array",                  "slug": "search-in-rotated-sorted-array" },
+    { "ds": "Binary Search",        "id": 153,  "title": "Find Minimum in Rotated Sorted Array",            "slug": "find-minimum-in-rotated-sorted-array" },
+    { "ds": "Binary Search",        "id": 162,  "title": "Find Peak Element",                               "slug": "find-peak-element" },
+    { "ds": "Binary Search",        "id": 875,  "title": "Koko Eating Bananas",                             "slug": "koko-eating-bananas" },
+    { "ds": "Binary Search",        "id": 540,  "title": "Single Element in a Sorted Array",                "slug": "single-element-in-a-sorted-array" },
+
+    { "ds": "Dynamic Programming",  "id": 198,  "title": "House Robber",                                    "slug": "house-robber" },
+    { "ds": "Dynamic Programming",  "id": 322,  "title": "Coin Change",                                     "slug": "coin-change" },
+    { "ds": "Dynamic Programming",  "id": 300,  "title": "Longest Increasing Subsequence",                  "slug": "longest-increasing-subsequence" },
+    { "ds": "Dynamic Programming",  "id": 1143, "title": "Longest Common Subsequence",                      "slug": "longest-common-subsequence" },
+    { "ds": "Dynamic Programming",  "id": 64,   "title": "Minimum Path Sum",                                "slug": "minimum-path-sum" },
+
+    { "ds": "Backtracking",         "id": 46,   "title": "Permutations",                                    "slug": "permutations" },
+    { "ds": "Backtracking",         "id": 39,   "title": "Combination Sum",                                 "slug": "combination-sum" },
+    { "ds": "Backtracking",         "id": 78,   "title": "Subsets",                                         "slug": "subsets" },
+    { "ds": "Backtracking",         "id": 79,   "title": "Word Search",                                     "slug": "word-search" },
+    { "ds": "Backtracking",         "id": 51,   "title": "N-Queens",                                        "slug": "n-queens" }
+  ]
+}

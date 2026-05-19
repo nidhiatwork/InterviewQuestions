@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="theme-color" content="#b11f4b">
+<title>Microsoft Interview Questions</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23b11f4b'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EM%3C/text%3E%3C/svg%3E">
+<script>
+  (() => {
+    const param = new URLSearchParams(window.location.search).get("theme");
+    const saved = localStorage.getItem("dsa-theme");
+    const theme = param || saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-light.min.css" id="hl-light">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-dark.min.css" id="hl-dark" disabled>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <button id="navToggle" class="icon-btn" aria-label="Toggle navigation">☰</button>
+  <a href="#" class="brand">
+    <span class="brand-mark">M</span>
+    <span class="brand-text">Microsoft Interview Questions</span>
+  </a>
+  <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+</header>
+
+<div class="layout">
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Quick</div>
+      <a href="#today" class="nav-link nav-today" id="navToday">📅 Today's question</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">All questions</div>
+      <div id="navList" class="nav-list">
+        <div class="loading">Loading…</div>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <a href="https://github.com" target="_blank" rel="noopener" id="repoLink">View repo →</a>
+    </div>
+  </aside>
+
+  <div class="overlay" id="overlay"></div>
+
+  <main class="content" id="content">
+    <div class="loading-page">Loading questions…</div>
+  </main>
+</div>
+
+<template id="questionTemplate">
+  <article class="question">
+    <div class="q-header">
+      <div class="q-meta">
+        <span class="badge badge-ds" data-ds></span>
+        <span class="badge badge-diff" data-diff></span>
+        <span class="badge badge-date" data-date></span>
+      </div>
+      <h1 class="q-title">
+        <span class="q-lcid" data-lcid></span>
+        <span data-title></span>
+      </h1>
+      <div class="q-links">
+        <a class="q-link" data-leet target="_blank" rel="noopener">↗ Open on LeetCode</a>
+        <a class="q-link" data-viz target="_blank" rel="noopener" hidden>🎬 Visualizer</a>
+        <a class="q-link" data-raw target="_blank" rel="noopener">📄 Raw .py</a>
+      </div>
+    </div>
+
+    <section class="q-section">
+      <h2 class="q-section-title">📖 Problem</h2>
+      <div class="q-problem" data-problem></div>
+    </section>
+
+    <section class="q-section">
+      <h2 class="q-section-title">⌨️ Boilerplate</h2>
+      <p class="q-section-hint">Copy this into your editor and implement the body. Run the tests below to verify.</p>
+      <pre><code class="language-python" data-boilerplate></code></pre>
+    </section>
+
+    <section class="q-section">
+      <h2 class="q-section-title">✅ Tests</h2>
+      <p class="q-section-hint">These tests must pass for your implementation to be correct.</p>
+      <pre><code class="language-python" data-tests></code></pre>
+    </section>
+
+    <section class="q-section">
+      <div class="solution-gate">
+        <button class="reveal-btn" data-reveal>
+          <span class="reveal-icon">🔒</span>
+          <span class="reveal-text">Reveal solution &amp; notes</span>
+          <span class="reveal-hint">try the problem first — it sticks better</span>
+        </button>
+        <div class="solution-body" data-solution hidden>
+          <h2 class="q-section-title">💡 Solution &amp; notes</h2>
+          <pre><code class="language-python" data-reference></code></pre>
+        </div>
+      </div>
+    </section>
+  </article>
+</template>
+
+<template id="welcomeTemplate">
+  <article class="welcome">
+    <h1>Welcome 👋</h1>
+    <p class="welcome-sub">Pick a question from the sidebar, or jump to today's:</p>
+    <a class="primary-btn" href="#today">📅 Today's question</a>
+  </article>
+</template>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
