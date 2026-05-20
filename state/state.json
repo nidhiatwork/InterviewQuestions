@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 0,
-  "lastPickedDate": "2026-05-19",
+  "rotationIndex": 1,
+  "lastPickedDate": "2026-05-20",
   "lastPicked": {
-    "date": "2026-05-19",
-    "dateIST": "2026-05-19 12:30 IST",
-    "dataStructure": "Backtracking",
-    "leetcodeId": 46,
-    "title": "Permutations",
-    "slug": "permutations",
-    "url": "https://leetcode.com/problems/permutations/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-19-permutations.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-19-permutations.py",
+    "date": "2026-05-20",
+    "dateIST": "2026-05-20 10:08 IST",
+    "dataStructure": "Array",
+    "leetcodeId": 11,
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-20-container-with-most-water.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-20-container-with-most-water.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -170,6 +170,16 @@
       "url": "https://leetcode.com/problems/permutations/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-19-permutations.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-19-permutations.py"
+    },
+    {
+      "date": "2026-05-20",
+      "dataStructure": "Array",
+      "leetcodeId": 11,
+      "title": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "url": "https://leetcode.com/problems/container-with-most-water/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-20-container-with-most-water.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-20-container-with-most-water.py"
     }
   ]
 }
