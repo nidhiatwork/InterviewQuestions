@@ -126,6 +126,8 @@ Open `state.json`. Determine today's `dataStructure = rotation[rotationIndex]`. 
 
 If `lastPickedDate == today` and `askedQuestions[-1].date == today`, the cron already fired today — print `Already picked for today: <title>` and exit silently.
 
+**Pre-flight straggler check:** before doing anything else, `cd` to the skill root and run `git status`. If there are untracked or modified files from a prior run (e.g., a previous cron crashed mid-flight), commit + push them now with message `Sync pending /dsa-daily artifacts` so we start from a clean tree.
+
 ### Step 2 — Pick a fresh problem from LeetCode
 
 **Primary path (live LeetCode):**
@@ -184,6 +186,8 @@ Structure (top to bottom):
    ```
    The reference goes inside a string (NOT executable) so the file still imports the stubbed `Solution`. The user reads the string with their editor or `print(REFERENCE)` in a REPL when they want a peek.
 
+   **Non-DP framing rule (preference):** Nidhi prefers non-DP solutions for interview practice. When the rotation lands on `Dynamic Programming` (or any problem that's canonically solved with DP), frame the reference solution in non-DP terms — *state machine / streaming / rolling variables / greedy / math*. Use two rolling variables instead of a `dp[]` array, and never use the words "dp", "memoization", "recurrence", or "Dynamic Programming" in the Approach narrative or Interview tips. The algorithm cost can be identical to space-optimized DP — only the framing changes. Title line for these picks: `(Array · Medium)` / `(<DS> · Medium)` rather than `(Dynamic Programming · Medium)`. See `playground/2026-05-18-house-robber.py` for the canonical example.
+
 Purpose: a single file the user opens, codes against, and runs. The reference at the bottom replaces what used to be the separate `solutions/<date>-<slug>.md`. See `playground/README.md` for the workflow.
 
 ### Step 4 — Post to Teams
@@ -224,27 +228,45 @@ The goal is **one clickable hyperlink in Teams** that opens the markdown file in
 - Increment `rotationIndex = (rotationIndex + 1) % rotation.length`
 - Write `state.json` back
 
-### Step 6 — Regenerate manifest & push to GitHub
+### Step 6 — Regenerate manifest & push to GitHub (**MANDATORY — DO NOT SKIP**)
 
-The skill folder is also a git repo backing the public website at `https://nidhiatwork.github.io/InterviewQuestions/`. After updating state.json, run:
+The skill folder is also a git repo backing the public website at `https://nidhiatwork.github.io/InterviewQuestions/`. Nidhi opens this site from mobile, so **every pick must reach `origin/main` before this run ends** — otherwise the website is stale and the mobile link is broken.
+
+Run this block verbatim:
 
 ```powershell
 cd C:\Users\bhushanidhi\.copilot\skills\dsa-daily
 python scripts/build_manifest.py
-git add .
-git commit -m "Add <date> — <title> (<DS>)"
+git add -A
+git commit -m "Add <date> — <title> (<DS>)" -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
 git push origin main
 ```
 
-GitHub Pages auto-redeploys within ~1 minute. The new question appears on the website without any manual intervention.
+**Then verify the push landed.** Immediately after `git push`, run:
 
-If `git push` fails (auth, network, etc.), surface the error to the user but DO NOT roll back state.json — the local file is still the source of truth; the push can be retried later.
+```powershell
+git status        # must report "Your branch is up to date with 'origin/main'." and "nothing to commit, working tree clean"
+git log origin/main -1 --oneline   # must show the commit you just made
+```
+
+If `git status` shows anything uncommitted, or the log doesn't show your commit on `origin/main`, treat it as a push failure: retry once (`git push origin main`), and if it still fails, post the error to Nidhi via `/msg-me` so she knows the website wasn't updated. DO NOT roll back state.json — the local file is still the source of truth; the push can be retried later.
+
+GitHub Pages auto-redeploys within ~1 minute of a successful push.
+
+#### Step 6b — Sweep for stragglers (defensive)
+
+Before declaring done, run `git status` once more from the skill root. If there are ANY untracked or modified files (e.g., a prior cron run that crashed before pushing), commit + push them too — in the same run. The website should never have a local-only pick waiting.
 
 ### Step 7 — User-facing CLI output
 
-Print a one-line confirmation:
+Print a one-line confirmation that explicitly states the push succeeded:
 ```
-✅ /dsa-daily picked — Array: LeetCode #15 "3Sum" — playground/2026-05-03-3sum.py · pushed to GitHub
+✅ /dsa-daily picked — Array: LeetCode #15 "3Sum" — playground/2026-05-03-3sum.py · pushed to origin/main (<commit-sha>)
+```
+
+If the push failed, the confirmation must say so:
+```
+⚠️ /dsa-daily picked — Array: LeetCode #15 "3Sum" — playground/2026-05-03-3sum.py · LOCAL ONLY (push failed: <reason>)
 ```
 
 ---
@@ -335,17 +357,26 @@ You are running the /dsa-daily cron in **Pick mode**.
 
 7. Update state.json: append to `askedQuestions[]`, set `lastPicked` and `lastPickedDate`, increment `rotationIndex` mod 14, write back.
 
-7b. Regenerate manifest + push to GitHub so the website at https://nidhiatwork.github.io/InterviewQuestions/ updates automatically:
+7b. **MANDATORY: Regenerate manifest + push to GitHub so the website at https://nidhiatwork.github.io/InterviewQuestions/ updates.** Nidhi opens this site from mobile — every pick must land on `origin/main` before this run ends. Run:
     ```powershell
     cd C:\Users\bhushanidhi\.copilot\skills\dsa-daily
     python scripts/build_manifest.py
-    git add .
-    git commit -m "Add <date> — <title> (<DS>)"
+    git add -A
+    git commit -m "Add <date> — <title> (<DS>)" -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
     git push origin main
     ```
-    If the push fails, surface the error but don't roll back state.json.
+    Then VERIFY the push landed:
+    ```powershell
+    git status                          # expect: "working tree clean" + "up to date with 'origin/main'"
+    git log origin/main -1 --oneline    # expect: the commit you just made
+    ```
+    If verification fails, retry `git push origin main` once. If it still fails, post the error to Nidhi via `/msg-me` (the website wasn't updated) — but do NOT roll back state.json.
 
-8. Print one-line confirmation in the CLI.
+7c. Sweep for stragglers: run `git status` once more. If there are leftover untracked/modified files from a prior crashed cron run, commit + push them too in the same run.
+
+8. Print one-line CLI confirmation that EXPLICITLY states the push status (with the commit SHA on success, or the failure reason). Format:
+   - Success: `✅ /dsa-daily picked — <DS>: LeetCode #<id> "<title>" — playground/<date>-<slug>.py · pushed to origin/main (<sha>)`
+   - Failure: `⚠️ /dsa-daily picked — <DS>: LeetCode #<id> "<title>" — playground/<date>-<slug>.py · LOCAL ONLY (push failed: <reason>)`
 
 If anything fails (Playwright + seed both empty for this DS), post an apologetic Teams message saying the picker couldn't find a fresh problem and bump the rotationIndex anyway so tomorrow tries the next DS.
 ```
