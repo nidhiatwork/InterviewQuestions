@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-05-20T04:39:32Z",
+  "generatedAt": "2026-05-22T13:15:06Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-22",
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "leetcodeId": 3,
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "dataStructure": "String",
+      "difficulty": "Medium",
+      "filename": "2026-05-22-longest-substring-without-repeating-characters.py",
+      "hasVisualizer": false
+    },
+    {
+      "date": "2026-05-21",
+      "slug": "longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "leetcodeId": 128,
+      "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+      "dataStructure": "Hash Table",
+      "difficulty": "Medium",
+      "filename": "2026-05-21-longest-consecutive-sequence.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-20",
       "slug": "container-with-most-water",
