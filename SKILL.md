@@ -3,19 +3,13 @@ name: dsa-daily
 description: Use when the user says `/dsa-daily`, `/dsa-daily pick`, `/dsa-daily list`, `/dsa-daily show`, `/dsa-daily start`, or any cron-fired prompt that begins with `Pick today's daily DSA interview question`.
 ---
 
-## ClawPilot Teams Bot Notification Override
+## Notification routing
 
-All notifications that were previously routed to Nidhi's self-notify Teams channel must now be sent through the ClawPilot Teams bot.
+When this skill needs to notify Nidhi, send the notification by invoking `/msg-me <message>`. Do not duplicate Teams channel IDs, chat IDs, mention metadata, or direct Teams send-tool instructions in this skill; `/msg-me` owns that routing.
 
-- **Tool:** `m_send_teams_message`
-- **Destination:** Nidhi via the ClawPilot Teams bot
-- **Content:** send the final notification text directly to the bot tool; HTML is acceptable when useful, but do not include Teams channel IDs, chat IDs, Graph mention payloads, or ClawPilot Teams bot prefixes.
-- **Privacy:** keep automated notifications concise and avoid exposing unnecessary private details.
-
-Ignore any older instructions in this file that say to use direct Teams channel/chat posting, Graph mention payloads, or self-notify prefixes. Those legacy routes are deprecated.
 # /dsa-daily — Daily DSA Interview Question Picker
 
-Picks one **Medium-difficulty LeetCode problem** every day at 10:03 AM IST, rotating through 14 data-structure categories in round-robin order. Generates a Python solution with test cases as a markdown file, posts a Teams notification with a clickable link, and surfaces today's pick in the PulseIQ dashboard.
+Picks one **Medium-difficulty LeetCode problem** every day at 10:03 AM IST, rotating through 14 data-structure categories in round-robin order. Generates a Python solution with test cases as a markdown file, posts a `/msg-me` notification with a clickable link, and surfaces today's pick in the PulseIQ dashboard.
 
 ## Trigger
 
@@ -26,7 +20,7 @@ Use when the user says `/dsa-daily`, `/dsa-daily pick`, `/dsa-daily list`, `/dsa
 | User says | Mode | What happens |
 |-----------|------|--------------|
 | `/dsa-daily` or `/dsa-daily start` | **Setup** | Creates the daily 10:03 AM IST cron and runs Pick once immediately |
-| `/dsa-daily pick` (or cron-fired prompt) | **Pick** | Selects today's question, generates solution, posts to Teams |
+| `/dsa-daily pick` (or cron-fired prompt) | **Pick** | Selects today's question, generates solution, posts via `/msg-me` |
 | `/dsa-daily list` | **List** | Shows all previously picked questions grouped by data structure |
 | `/dsa-daily show` | **Show** | Shows today's question (if already picked) or yesterday's |
 | `/dsa-daily reset-rotation` | **Reset** | Resets `rotationIndex` to 0 |
@@ -215,7 +209,7 @@ The goal is **one clickable hyperlink in Teams** that opens the markdown file in
 - Append `?web=1` to the SharePoint URL — this forces SharePoint to serve the file inline (so the browser markdown extension can render it) instead of triggering a download.
 - `content`:
   ```html
-  <b>[Sent from Nidhi's Claude]</b> - @Nidhi Bhushan<br>
+  <b>[Sent from Nidhi's Clawpilot]</b> - @Nidhi Bhushan<br>
   <b>[Cron: /dsa-daily]</b><br>
   <b>📚 Today's DSA Interview Question — <i>{dataStructure}</i></b><br><br>
   <b>LeetCode #{leetcodeId}: <a href="{url}">{title}</a></b> · {difficulty}<br>
@@ -336,7 +330,7 @@ You are running the /dsa-daily cron in **Pick mode**.
 6. Post the announcement to Teams with the **browser-open link** via `mcp__teams__SendMessageToChannel`:
          - contentType: html
    - mentions: [{"displayName":"Nidhi Bhushan","id":"143b173b-ab84-48eb-9e65-7d28650e4349","type":"user"}]
-   - content: `<b>[Sent from Nidhi's Claude]</b> - @Nidhi Bhushan<br><b>[Cron: /dsa-daily]</b><br><b>📚 Today's DSA Interview Question — <i>{dataStructure}</i></b><br><br><b>LeetCode #{leetcodeId}: <a href="{url}">{title}</a></b> · Medium<br>👉 <a href="{sharePointUrl}?web=1">Open <b>{date}-{slug}.md</b> in browser</a>`
+   - content: `<b>[Sent from Nidhi's Clawpilot]</b> - @Nidhi Bhushan<br><b>[Cron: /dsa-daily]</b><br><b>📚 Today's DSA Interview Question — <i>{dataStructure}</i></b><br><br><b>LeetCode #{leetcodeId}: <a href="{url}">{title}</a></b> · Medium<br>👉 <a href="{sharePointUrl}?web=1">Open <b>{date}-{slug}.md</b> in browser</a>`
    - The `?web=1` query param on the SharePoint URL forces inline browser rendering instead of a download. The user's browser markdown extension then renders the .md file.
 
 7. Update state.json: append to `askedQuestions[]`, set `lastPicked` and `lastPickedDate`, increment `rotationIndex` mod 14, write back.

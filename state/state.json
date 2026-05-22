@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 1,
-  "lastPickedDate": "2026-05-20",
+  "rotationIndex": 3,
+  "lastPickedDate": "2026-05-22",
   "lastPicked": {
-    "date": "2026-05-20",
-    "dateIST": "2026-05-20 10:08 IST",
-    "dataStructure": "Array",
-    "leetcodeId": 11,
-    "title": "Container With Most Water",
-    "slug": "container-with-most-water",
-    "url": "https://leetcode.com/problems/container-with-most-water/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-20-container-with-most-water.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-20-container-with-most-water.py",
+    "date": "2026-05-22",
+    "dateIST": "2026-05-22 10:13 IST",
+    "dataStructure": "String",
+    "leetcodeId": 3,
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-22-longest-substring-without-repeating-characters.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-22-longest-substring-without-repeating-characters.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -180,6 +180,26 @@
       "url": "https://leetcode.com/problems/container-with-most-water/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-20-container-with-most-water.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-20-container-with-most-water.py"
+    },
+    {
+      "date": "2026-05-21",
+      "dataStructure": "Hash Table",
+      "leetcodeId": 128,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-21-longest-consecutive-sequence.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-21-longest-consecutive-sequence.py"
+    },
+    {
+      "date": "2026-05-22",
+      "dataStructure": "String",
+      "leetcodeId": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-22-longest-substring-without-repeating-characters.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-22-longest-substring-without-repeating-characters.py"
     }
   ]
 }
