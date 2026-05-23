@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-22T13:15:06Z",
+  "generatedAt": "2026-05-23T04:42:12Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-23",
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
+      "leetcodeId": 19,
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "dataStructure": "Linked List",
+      "difficulty": "Medium",
+      "filename": "2026-05-23-remove-nth-node-from-end-of-list.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-22",
       "slug": "longest-substring-without-repeating-characters",
