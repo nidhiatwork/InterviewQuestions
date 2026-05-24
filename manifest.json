@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-23T04:42:12Z",
+  "generatedAt": "2026-05-24T04:37:48Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-24",
+      "slug": "simplify-path",
+      "title": "Simplify Path",
+      "leetcodeId": 71,
+      "url": "https://leetcode.com/problems/simplify-path/",
+      "dataStructure": "Stack",
+      "difficulty": "Medium",
+      "filename": "2026-05-24-simplify-path.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-23",
       "slug": "remove-nth-node-from-end-of-list",

@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 4,
-  "lastPickedDate": "2026-05-23",
+  "rotationIndex": 5,
+  "lastPickedDate": "2026-05-24",
   "lastPicked": {
-    "date": "2026-05-23",
-    "dateIST": "2026-05-23 10:10 IST",
-    "dataStructure": "Linked List",
-    "leetcodeId": 19,
-    "title": "Remove Nth Node From End of List",
-    "slug": "remove-nth-node-from-end-of-list",
-    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-23-remove-nth-node-from-end-of-list.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-23-remove-nth-node-from-end-of-list.py",
+    "date": "2026-05-24",
+    "dateIST": "2026-05-24 10:05 IST",
+    "dataStructure": "Stack",
+    "leetcodeId": 71,
+    "title": "Simplify Path",
+    "slug": "simplify-path",
+    "url": "https://leetcode.com/problems/simplify-path/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-24-simplify-path.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-24-simplify-path.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -210,6 +210,16 @@
       "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-23-remove-nth-node-from-end-of-list.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-23-remove-nth-node-from-end-of-list.py"
+    },
+    {
+      "date": "2026-05-24",
+      "dataStructure": "Stack",
+      "leetcodeId": 71,
+      "title": "Simplify Path",
+      "slug": "simplify-path",
+      "url": "https://leetcode.com/problems/simplify-path/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-24-simplify-path.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-24-simplify-path.py"
     }
   ]
 }
