@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 5,
-  "lastPickedDate": "2026-05-24",
+  "rotationIndex": 6,
+  "lastPickedDate": "2026-05-25",
   "lastPicked": {
-    "date": "2026-05-24",
-    "dateIST": "2026-05-24 10:05 IST",
-    "dataStructure": "Stack",
-    "leetcodeId": 71,
-    "title": "Simplify Path",
-    "slug": "simplify-path",
-    "url": "https://leetcode.com/problems/simplify-path/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-24-simplify-path.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-24-simplify-path.py",
+    "date": "2026-05-25",
+    "dateIST": "2026-05-25 10:03 IST",
+    "dataStructure": "Queue",
+    "leetcodeId": 1670,
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "url": "https://leetcode.com/problems/design-front-middle-back-queue/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-25-design-front-middle-back-queue.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-25-design-front-middle-back-queue.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -220,6 +220,16 @@
       "url": "https://leetcode.com/problems/simplify-path/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-24-simplify-path.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-24-simplify-path.py"
+    },
+    {
+      "date": "2026-05-25",
+      "dataStructure": "Queue",
+      "leetcodeId": 1670,
+      "title": "Design Front Middle Back Queue",
+      "slug": "design-front-middle-back-queue",
+      "url": "https://leetcode.com/problems/design-front-middle-back-queue/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-25-design-front-middle-back-queue.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-25-design-front-middle-back-queue.py"
     }
   ]
 }

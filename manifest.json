@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-24T04:37:48Z",
+  "generatedAt": "2026-05-25T13:05:38Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-25",
+      "slug": "design-front-middle-back-queue",
+      "title": "Design Front Middle Back Queue",
+      "leetcodeId": 1670,
+      "url": "https://leetcode.com/problems/design-front-middle-back-queue/",
+      "dataStructure": "Queue",
+      "difficulty": "Medium",
+      "filename": "2026-05-25-design-front-middle-back-queue.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-24",
       "slug": "simplify-path",
