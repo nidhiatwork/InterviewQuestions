@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-25T13:05:38Z",
+  "generatedAt": "2026-05-26T06:10:12Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-26",
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "leetcodeId": 199,
+      "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+      "dataStructure": "Binary Tree",
+      "difficulty": "Medium",
+      "filename": "2026-05-26-binary-tree-right-side-view.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-25",
       "slug": "design-front-middle-back-queue",

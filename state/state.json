@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 6,
-  "lastPickedDate": "2026-05-25",
+  "rotationIndex": 7,
+  "lastPickedDate": "2026-05-26",
   "lastPicked": {
-    "date": "2026-05-25",
-    "dateIST": "2026-05-25 10:03 IST",
-    "dataStructure": "Queue",
-    "leetcodeId": 1670,
-    "title": "Design Front Middle Back Queue",
-    "slug": "design-front-middle-back-queue",
-    "url": "https://leetcode.com/problems/design-front-middle-back-queue/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-25-design-front-middle-back-queue.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-25-design-front-middle-back-queue.py",
+    "date": "2026-05-26",
+    "dateIST": "2026-05-26 11:34 IST",
+    "dataStructure": "Binary Tree",
+    "leetcodeId": 199,
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-26-binary-tree-right-side-view.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-26-binary-tree-right-side-view.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -230,6 +230,16 @@
       "url": "https://leetcode.com/problems/design-front-middle-back-queue/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-25-design-front-middle-back-queue.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-25-design-front-middle-back-queue.py"
+    },
+    {
+      "date": "2026-05-26",
+      "dataStructure": "Binary Tree",
+      "leetcodeId": 199,
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-26-binary-tree-right-side-view.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-26-binary-tree-right-side-view.py"
     }
   ]
 }
