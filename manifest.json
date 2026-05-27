@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-26T06:10:12Z",
+  "generatedAt": "2026-05-27T04:45:08Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-27",
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "leetcodeId": 98,
+      "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "dataStructure": "Binary Search Tree",
+      "difficulty": "Medium",
+      "filename": "2026-05-27-validate-binary-search-tree.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-26",
       "slug": "binary-tree-right-side-view",

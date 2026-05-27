@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 7,
-  "lastPickedDate": "2026-05-26",
+  "rotationIndex": 8,
+  "lastPickedDate": "2026-05-27",
   "lastPicked": {
-    "date": "2026-05-26",
-    "dateIST": "2026-05-26 11:34 IST",
-    "dataStructure": "Binary Tree",
-    "leetcodeId": 199,
-    "title": "Binary Tree Right Side View",
-    "slug": "binary-tree-right-side-view",
-    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-26-binary-tree-right-side-view.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-26-binary-tree-right-side-view.py",
+    "date": "2026-05-27",
+    "dateIST": "2026-05-27 10:11 IST",
+    "dataStructure": "Binary Search Tree",
+    "leetcodeId": 98,
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-27-validate-binary-search-tree.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-27-validate-binary-search-tree.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -240,6 +240,16 @@
       "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-26-binary-tree-right-side-view.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-26-binary-tree-right-side-view.py"
+    },
+    {
+      "date": "2026-05-27",
+      "dataStructure": "Binary Search Tree",
+      "leetcodeId": 98,
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-27-validate-binary-search-tree.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-27-validate-binary-search-tree.py"
     }
   ]
 }
