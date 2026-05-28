@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 8,
-  "lastPickedDate": "2026-05-27",
+  "rotationIndex": 9,
+  "lastPickedDate": "2026-05-28",
   "lastPicked": {
-    "date": "2026-05-27",
-    "dateIST": "2026-05-27 10:11 IST",
-    "dataStructure": "Binary Search Tree",
-    "leetcodeId": 98,
-    "title": "Validate Binary Search Tree",
-    "slug": "validate-binary-search-tree",
-    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-27-validate-binary-search-tree.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-27-validate-binary-search-tree.py",
+    "date": "2026-05-28",
+    "dateIST": "2026-05-28 10:08 IST",
+    "dataStructure": "Heap (Priority Queue)",
+    "leetcodeId": 347,
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-28-top-k-frequent-elements.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-28-top-k-frequent-elements.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -250,6 +250,16 @@
       "url": "https://leetcode.com/problems/validate-binary-search-tree/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-27-validate-binary-search-tree.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-27-validate-binary-search-tree.py"
+    },
+    {
+      "date": "2026-05-28",
+      "dataStructure": "Heap (Priority Queue)",
+      "leetcodeId": 347,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-28-top-k-frequent-elements.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-28-top-k-frequent-elements.py"
     }
   ]
 }

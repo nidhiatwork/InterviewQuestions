@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-27T04:45:08Z",
+  "generatedAt": "2026-05-28T04:40:38Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-28",
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "leetcodeId": 347,
+      "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+      "dataStructure": "Heap (Priority Queue)",
+      "difficulty": "Medium",
+      "filename": "2026-05-28-top-k-frequent-elements.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-27",
       "slug": "validate-binary-search-tree",
