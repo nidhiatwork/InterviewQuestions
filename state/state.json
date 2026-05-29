@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 9,
-  "lastPickedDate": "2026-05-28",
+  "rotationIndex": 10,
+  "lastPickedDate": "2026-05-29",
   "lastPicked": {
-    "date": "2026-05-28",
-    "dateIST": "2026-05-28 10:08 IST",
-    "dataStructure": "Heap (Priority Queue)",
-    "leetcodeId": 347,
-    "title": "Top K Frequent Elements",
-    "slug": "top-k-frequent-elements",
-    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-28-top-k-frequent-elements.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-28-top-k-frequent-elements.py",
+    "date": "2026-05-29",
+    "dateIST": "2026-05-29 10:10 IST",
+    "dataStructure": "Graph",
+    "leetcodeId": 207,
+    "title": "Course Schedule",
+    "slug": "course-schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-29-course-schedule.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-29-course-schedule.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -260,6 +260,16 @@
       "url": "https://leetcode.com/problems/top-k-frequent-elements/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-28-top-k-frequent-elements.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-28-top-k-frequent-elements.py"
+    },
+    {
+      "date": "2026-05-29",
+      "dataStructure": "Graph",
+      "leetcodeId": 207,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-29-course-schedule.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-29-course-schedule.py"
     }
   ]
 }

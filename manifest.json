@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-28T04:40:38Z",
+  "generatedAt": "2026-05-29T04:42:02Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-29",
+      "slug": "course-schedule",
+      "title": "Course Schedule",
+      "leetcodeId": 207,
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "dataStructure": "Graph",
+      "difficulty": "Medium",
+      "filename": "2026-05-29-course-schedule.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-28",
       "slug": "top-k-frequent-elements",
