@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 10,
-  "lastPickedDate": "2026-05-29",
+  "rotationIndex": 11,
+  "lastPickedDate": "2026-05-30",
   "lastPicked": {
-    "date": "2026-05-29",
-    "dateIST": "2026-05-29 10:10 IST",
-    "dataStructure": "Graph",
-    "leetcodeId": 207,
-    "title": "Course Schedule",
-    "slug": "course-schedule",
-    "url": "https://leetcode.com/problems/course-schedule/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-29-course-schedule.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-29-course-schedule.py",
+    "date": "2026-05-30",
+    "dateIST": "2026-05-30 10:05 IST",
+    "dataStructure": "Trie",
+    "leetcodeId": 211,
+    "title": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-30-design-add-and-search-words-data-structure.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-30-design-add-and-search-words-data-structure.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -270,6 +270,16 @@
       "url": "https://leetcode.com/problems/course-schedule/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-29-course-schedule.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-29-course-schedule.py"
+    },
+    {
+      "date": "2026-05-30",
+      "dataStructure": "Trie",
+      "leetcodeId": 211,
+      "title": "Design Add and Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-30-design-add-and-search-words-data-structure.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-30-design-add-and-search-words-data-structure.py"
     }
   ]
 }

@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-29T04:42:02Z",
+  "generatedAt": "2026-05-30T04:37:27Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-30",
+      "slug": "design-add-and-search-words-data-structure",
+      "title": "Design Add and Search Words Data Structure",
+      "leetcodeId": 211,
+      "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+      "dataStructure": "Trie",
+      "difficulty": "Medium",
+      "filename": "2026-05-30-design-add-and-search-words-data-structure.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-29",
       "slug": "course-schedule",
