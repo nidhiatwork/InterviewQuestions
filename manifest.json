@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-30T04:37:27Z",
+  "generatedAt": "2026-05-31T04:36:51Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-05-31",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "leetcodeId": 153,
+      "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      "dataStructure": "Binary Search",
+      "difficulty": "Medium",
+      "filename": "2026-05-31-find-minimum-in-rotated-sorted-array.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-30",
       "slug": "design-add-and-search-words-data-structure",

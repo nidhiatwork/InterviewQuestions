@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 11,
-  "lastPickedDate": "2026-05-30",
+  "rotationIndex": 12,
+  "lastPickedDate": "2026-05-31",
   "lastPicked": {
-    "date": "2026-05-30",
-    "dateIST": "2026-05-30 10:05 IST",
-    "dataStructure": "Trie",
-    "leetcodeId": 211,
-    "title": "Design Add and Search Words Data Structure",
-    "slug": "design-add-and-search-words-data-structure",
-    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-30-design-add-and-search-words-data-structure.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-30-design-add-and-search-words-data-structure.py",
+    "date": "2026-05-31",
+    "dateIST": "2026-05-31 10:05 IST",
+    "dataStructure": "Binary Search",
+    "leetcodeId": 153,
+    "title": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-31-find-minimum-in-rotated-sorted-array.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-31-find-minimum-in-rotated-sorted-array.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -280,6 +280,16 @@
       "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-30-design-add-and-search-words-data-structure.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-30-design-add-and-search-words-data-structure.py"
+    },
+    {
+      "date": "2026-05-31",
+      "dataStructure": "Binary Search",
+      "leetcodeId": 153,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-31-find-minimum-in-rotated-sorted-array.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-31-find-minimum-in-rotated-sorted-array.py"
     }
   ]
 }
