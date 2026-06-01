@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 12,
-  "lastPickedDate": "2026-05-31",
+  "rotationIndex": 13,
+  "lastPickedDate": "2026-06-01",
   "lastPicked": {
-    "date": "2026-05-31",
-    "dateIST": "2026-05-31 10:05 IST",
-    "dataStructure": "Binary Search",
-    "leetcodeId": 153,
-    "title": "Find Minimum in Rotated Sorted Array",
-    "slug": "find-minimum-in-rotated-sorted-array",
-    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-31-find-minimum-in-rotated-sorted-array.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-31-find-minimum-in-rotated-sorted-array.py",
+    "date": "2026-06-01",
+    "dateIST": "2026-06-01 10:11 IST",
+    "dataStructure": "Dynamic Programming",
+    "leetcodeId": 322,
+    "title": "Coin Change",
+    "slug": "coin-change",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-01-coin-change.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-01-coin-change.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -290,6 +290,16 @@
       "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-05-31-find-minimum-in-rotated-sorted-array.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-05-31-find-minimum-in-rotated-sorted-array.py"
+    },
+    {
+      "date": "2026-06-01",
+      "dataStructure": "Dynamic Programming",
+      "leetcodeId": 322,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "url": "https://leetcode.com/problems/coin-change/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-01-coin-change.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-01-coin-change.py"
     }
   ]
 }

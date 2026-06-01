@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-05-31T04:36:51Z",
+  "generatedAt": "2026-06-01T04:43:24Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-01",
+      "slug": "coin-change",
+      "title": "Coin Change",
+      "leetcodeId": 322,
+      "url": "https://leetcode.com/problems/coin-change/",
+      "dataStructure": "Dynamic Programming",
+      "difficulty": "Medium",
+      "filename": "2026-06-01-coin-change.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-05-31",
       "slug": "find-minimum-in-rotated-sorted-array",
