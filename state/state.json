@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 13,
-  "lastPickedDate": "2026-06-01",
+  "rotationIndex": 0,
+  "lastPickedDate": "2026-06-02",
   "lastPicked": {
-    "date": "2026-06-01",
-    "dateIST": "2026-06-01 10:11 IST",
-    "dataStructure": "Dynamic Programming",
-    "leetcodeId": 322,
-    "title": "Coin Change",
-    "slug": "coin-change",
-    "url": "https://leetcode.com/problems/coin-change/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-01-coin-change.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-01-coin-change.py",
+    "date": "2026-06-02",
+    "dateIST": "2026-06-02 10:06 IST",
+    "dataStructure": "Backtracking",
+    "leetcodeId": 39,
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-02-combination-sum.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-02-combination-sum.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -300,6 +300,16 @@
       "url": "https://leetcode.com/problems/coin-change/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-01-coin-change.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-01-coin-change.py"
+    },
+    {
+      "date": "2026-06-02",
+      "dataStructure": "Backtracking",
+      "leetcodeId": 39,
+      "title": "Combination Sum",
+      "slug": "combination-sum",
+      "url": "https://leetcode.com/problems/combination-sum/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-02-combination-sum.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-02-combination-sum.py"
     }
   ]
 }
