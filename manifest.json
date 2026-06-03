@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-02T04:37:32Z",
+  "generatedAt": "2026-06-03T04:38:07Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-03",
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
+      "leetcodeId": 56,
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "dataStructure": "Array",
+      "difficulty": "Medium",
+      "filename": "2026-06-03-merge-intervals.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-02",
       "slug": "combination-sum",

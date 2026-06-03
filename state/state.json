@@ -16,18 +16,18 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 0,
-  "lastPickedDate": "2026-06-02",
+  "rotationIndex": 1,
+  "lastPickedDate": "2026-06-03",
   "lastPicked": {
-    "date": "2026-06-02",
-    "dateIST": "2026-06-02 10:06 IST",
-    "dataStructure": "Backtracking",
-    "leetcodeId": 39,
-    "title": "Combination Sum",
-    "slug": "combination-sum",
-    "url": "https://leetcode.com/problems/combination-sum/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-02-combination-sum.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-02-combination-sum.py",
+    "date": "2026-06-03",
+    "dateIST": "2026-06-03 10:06 IST",
+    "dataStructure": "Array",
+    "leetcodeId": 56,
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-03-merge-intervals.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-03-merge-intervals.py",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -310,6 +310,16 @@
       "url": "https://leetcode.com/problems/combination-sum/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-02-combination-sum.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-02-combination-sum.py"
+    },
+    {
+      "date": "2026-06-03",
+      "dataStructure": "Array",
+      "leetcodeId": 56,
+      "title": "Merge Intervals",
+      "slug": "merge-intervals",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-03-merge-intervals.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-03-merge-intervals.py"
     }
   ]
 }
