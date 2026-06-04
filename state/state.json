@@ -16,18 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 1,
-  "lastPickedDate": "2026-06-03",
+  "rotationIndex": 2,
+  "lastPickedDate": "2026-06-04",
   "lastPicked": {
-    "date": "2026-06-03",
-    "dateIST": "2026-06-03 10:06 IST",
-    "dataStructure": "Array",
-    "leetcodeId": 56,
-    "title": "Merge Intervals",
-    "slug": "merge-intervals",
-    "url": "https://leetcode.com/problems/merge-intervals/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-03-merge-intervals.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-03-merge-intervals.py",
+    "date": "2026-06-04",
+    "dateIST": "2026-06-04 10:10 IST",
+    "dataStructure": "Hash Table",
+    "leetcodeId": 380,
+    "title": "Insert Delete GetRandom O(1)",
+    "slug": "insert-delete-getrandom-o1",
+    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-04-insert-delete-getrandom-o1.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-04-insert-delete-getrandom-o1.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-04-insert-delete-getrandom-o1.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-04-insert-delete-getrandom-o1.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -320,6 +322,20 @@
       "url": "https://leetcode.com/problems/merge-intervals/",
       "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-03-merge-intervals.py",
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-03-merge-intervals.py"
+    },
+    {
+      "date": "2026-06-04",
+      "dateIST": "2026-06-04 10:10 IST",
+      "dataStructure": "Hash Table",
+      "leetcodeId": 380,
+      "title": "Insert Delete GetRandom O(1)",
+      "slug": "insert-delete-getrandom-o1",
+      "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-04-insert-delete-getrandom-o1.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-04-insert-delete-getrandom-o1.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-04-insert-delete-getrandom-o1.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-04-insert-delete-getrandom-o1.md",
+      "difficulty": "Medium"
     }
   ]
 }

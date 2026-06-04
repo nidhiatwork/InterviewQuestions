@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-03T04:38:07Z",
+  "generatedAt": "2026-06-04T04:43:29Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-04",
+      "slug": "insert-delete-getrandom-o1",
+      "title": "Insert Delete GetRandom O(1)",
+      "leetcodeId": 380,
+      "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+      "dataStructure": "Hash Table",
+      "difficulty": "Medium",
+      "filename": "2026-06-04-insert-delete-getrandom-o1.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-03",
       "slug": "merge-intervals",
