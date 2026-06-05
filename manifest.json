@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-04T04:43:29Z",
+  "generatedAt": "2026-06-05T04:46:47Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-05",
+      "slug": "generate-parentheses",
+      "title": "Generate Parentheses",
+      "leetcodeId": 22,
+      "url": "https://leetcode.com/problems/generate-parentheses/",
+      "dataStructure": "String",
+      "difficulty": "Medium",
+      "filename": "2026-06-05-generate-parentheses.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-04",
       "slug": "insert-delete-getrandom-o1",

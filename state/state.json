@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 2,
-  "lastPickedDate": "2026-06-04",
+  "rotationIndex": 3,
+  "lastPickedDate": "2026-06-05",
   "lastPicked": {
-    "date": "2026-06-04",
-    "dateIST": "2026-06-04 10:10 IST",
-    "dataStructure": "Hash Table",
-    "leetcodeId": 380,
-    "title": "Insert Delete GetRandom O(1)",
-    "slug": "insert-delete-getrandom-o1",
-    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-04-insert-delete-getrandom-o1.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-04-insert-delete-getrandom-o1.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-04-insert-delete-getrandom-o1.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-04-insert-delete-getrandom-o1.md",
+    "date": "2026-06-05",
+    "dateIST": "2026-06-05 10:14 IST",
+    "dataStructure": "String",
+    "leetcodeId": 22,
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-05-generate-parentheses.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-05-generate-parentheses.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-05-generate-parentheses.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-05-generate-parentheses.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -335,6 +335,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-04-insert-delete-getrandom-o1.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-04-insert-delete-getrandom-o1.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-04-insert-delete-getrandom-o1.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-05",
+      "dateIST": "2026-06-05 10:14 IST",
+      "dataStructure": "String",
+      "leetcodeId": 22,
+      "title": "Generate Parentheses",
+      "slug": "generate-parentheses",
+      "url": "https://leetcode.com/problems/generate-parentheses/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-05-generate-parentheses.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-05-generate-parentheses.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-05-generate-parentheses.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-05-generate-parentheses.md",
       "difficulty": "Medium"
     }
   ]
