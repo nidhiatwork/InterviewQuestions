@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-05T04:46:47Z",
+  "generatedAt": "2026-06-06T04:38:11Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-06",
+      "slug": "reverse-linked-list-ii",
+      "title": "Reverse Linked List II",
+      "leetcodeId": 92,
+      "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+      "dataStructure": "Linked List",
+      "difficulty": "Medium",
+      "filename": "2026-06-06-reverse-linked-list-ii.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-05",
       "slug": "generate-parentheses",

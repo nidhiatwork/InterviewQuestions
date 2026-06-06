@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 3,
-  "lastPickedDate": "2026-06-05",
+  "rotationIndex": 4,
+  "lastPickedDate": "2026-06-06",
   "lastPicked": {
-    "date": "2026-06-05",
-    "dateIST": "2026-06-05 10:14 IST",
-    "dataStructure": "String",
-    "leetcodeId": 22,
-    "title": "Generate Parentheses",
-    "slug": "generate-parentheses",
-    "url": "https://leetcode.com/problems/generate-parentheses/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-05-generate-parentheses.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-05-generate-parentheses.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-05-generate-parentheses.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-05-generate-parentheses.md",
+    "date": "2026-06-06",
+    "dateIST": "2026-06-06 10:06 IST",
+    "dataStructure": "Linked List",
+    "leetcodeId": 92,
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-06-reverse-linked-list-ii.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-06-reverse-linked-list-ii.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-06-reverse-linked-list-ii.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-06-reverse-linked-list-ii.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -349,6 +349,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-05-generate-parentheses.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-05-generate-parentheses.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-05-generate-parentheses.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-06",
+      "dateIST": "2026-06-06 10:06 IST",
+      "dataStructure": "Linked List",
+      "leetcodeId": 92,
+      "title": "Reverse Linked List II",
+      "slug": "reverse-linked-list-ii",
+      "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-06-reverse-linked-list-ii.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-06-reverse-linked-list-ii.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-06-reverse-linked-list-ii.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-06-reverse-linked-list-ii.md",
       "difficulty": "Medium"
     }
   ]
