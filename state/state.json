@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 4,
-  "lastPickedDate": "2026-06-06",
+  "rotationIndex": 5,
+  "lastPickedDate": "2026-06-07",
   "lastPicked": {
-    "date": "2026-06-06",
-    "dateIST": "2026-06-06 10:06 IST",
-    "dataStructure": "Linked List",
-    "leetcodeId": 92,
-    "title": "Reverse Linked List II",
-    "slug": "reverse-linked-list-ii",
-    "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-06-reverse-linked-list-ii.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-06-reverse-linked-list-ii.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-06-reverse-linked-list-ii.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-06-reverse-linked-list-ii.md",
+    "date": "2026-06-07",
+    "dateIST": "2026-06-07 11:21 IST",
+    "dataStructure": "Stack",
+    "leetcodeId": 739,
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "url": "https://leetcode.com/problems/daily-temperatures/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-07-daily-temperatures.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-07-daily-temperatures.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-07-daily-temperatures.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-07-daily-temperatures.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -363,6 +363,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-06-reverse-linked-list-ii.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-06-reverse-linked-list-ii.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-06-reverse-linked-list-ii.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-07",
+      "dateIST": "2026-06-07 11:21 IST",
+      "dataStructure": "Stack",
+      "leetcodeId": 739,
+      "title": "Daily Temperatures",
+      "slug": "daily-temperatures",
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-07-daily-temperatures.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-07-daily-temperatures.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-07-daily-temperatures.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-07-daily-temperatures.md",
       "difficulty": "Medium"
     }
   ]

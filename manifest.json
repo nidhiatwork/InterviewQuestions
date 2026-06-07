@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-06T04:38:11Z",
+  "generatedAt": "2026-06-07T05:52:32Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-07",
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "leetcodeId": 739,
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "dataStructure": "Stack",
+      "difficulty": "Medium",
+      "filename": "2026-06-07-daily-temperatures.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-06",
       "slug": "reverse-linked-list-ii",
