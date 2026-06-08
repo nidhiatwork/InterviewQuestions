@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-07T05:52:32Z",
+  "generatedAt": "2026-06-08T04:40:16Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-08",
+      "slug": "reveal-cards-in-increasing-order",
+      "title": "Reveal Cards In Increasing Order",
+      "leetcodeId": 950,
+      "url": "https://leetcode.com/problems/reveal-cards-in-increasing-order/",
+      "dataStructure": "Queue",
+      "difficulty": "Medium",
+      "filename": "2026-06-08-reveal-cards-in-increasing-order.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-07",
       "slug": "daily-temperatures",
