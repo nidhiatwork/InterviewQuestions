@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-08T04:40:16Z",
+  "generatedAt": "2026-06-09T04:40:52Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-09",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "leetcodeId": 236,
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "dataStructure": "Binary Tree",
+      "difficulty": "Medium",
+      "filename": "2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-08",
       "slug": "reveal-cards-in-increasing-order",

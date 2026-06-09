@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 6,
-  "lastPickedDate": "2026-06-08",
+  "rotationIndex": 7,
+  "lastPickedDate": "2026-06-09",
   "lastPicked": {
-    "date": "2026-06-08",
-    "dateIST": "2026-06-08 10:08 IST",
-    "dataStructure": "Queue",
-    "leetcodeId": 950,
-    "title": "Reveal Cards In Increasing Order",
-    "slug": "reveal-cards-in-increasing-order",
-    "url": "https://leetcode.com/problems/reveal-cards-in-increasing-order/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-08-reveal-cards-in-increasing-order.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-08-reveal-cards-in-increasing-order.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-08-reveal-cards-in-increasing-order.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-08-reveal-cards-in-increasing-order.md",
+    "date": "2026-06-09",
+    "dateIST": "2026-06-09 10:07 IST",
+    "dataStructure": "Binary Tree",
+    "leetcodeId": 236,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -391,6 +391,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-08-reveal-cards-in-increasing-order.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-08-reveal-cards-in-increasing-order.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-08-reveal-cards-in-increasing-order.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-09",
+      "dateIST": "2026-06-09 10:07 IST",
+      "dataStructure": "Binary Tree",
+      "leetcodeId": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
       "difficulty": "Medium"
     }
   ]
