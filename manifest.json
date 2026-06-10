@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-09T04:40:52Z",
+  "generatedAt": "2026-06-10T04:47:05Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-10",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "leetcodeId": 235,
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "dataStructure": "Binary Search Tree",
+      "difficulty": "Medium",
+      "filename": "2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-09",
       "slug": "lowest-common-ancestor-of-a-binary-tree",

@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 7,
-  "lastPickedDate": "2026-06-09",
+  "rotationIndex": 8,
+  "lastPickedDate": "2026-06-10",
   "lastPicked": {
-    "date": "2026-06-09",
-    "dateIST": "2026-06-09 10:07 IST",
-    "dataStructure": "Binary Tree",
-    "leetcodeId": 236,
-    "title": "Lowest Common Ancestor of a Binary Tree",
-    "slug": "lowest-common-ancestor-of-a-binary-tree",
-    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
+    "date": "2026-06-10",
+    "dateIST": "2026-06-10 10:14 IST",
+    "dataStructure": "Binary Search Tree",
+    "leetcodeId": 235,
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -405,6 +405,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-09-lowest-common-ancestor-of-a-binary-tree.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-09-lowest-common-ancestor-of-a-binary-tree.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-10",
+      "dateIST": "2026-06-10 10:14 IST",
+      "dataStructure": "Binary Search Tree",
+      "leetcodeId": 235,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
       "difficulty": "Medium"
     }
   ]
