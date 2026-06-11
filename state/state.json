@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 8,
-  "lastPickedDate": "2026-06-10",
+  "rotationIndex": 9,
+  "lastPickedDate": "2026-06-11",
   "lastPicked": {
-    "date": "2026-06-10",
-    "dateIST": "2026-06-10 10:14 IST",
-    "dataStructure": "Binary Search Tree",
-    "leetcodeId": 235,
-    "title": "Lowest Common Ancestor of a Binary Search Tree",
-    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
-    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
+    "date": "2026-06-11",
+    "dateIST": "2026-06-11 10:14 IST",
+    "dataStructure": "Heap (Priority Queue)",
+    "leetcodeId": 692,
+    "title": "Top K Frequent Words",
+    "slug": "top-k-frequent-words",
+    "url": "https://leetcode.com/problems/top-k-frequent-words/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-11-top-k-frequent-words.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-11-top-k-frequent-words.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-11-top-k-frequent-words.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-11-top-k-frequent-words.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -419,6 +419,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-10-lowest-common-ancestor-of-a-binary-search-tree.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-11",
+      "dateIST": "2026-06-11 10:14 IST",
+      "dataStructure": "Heap (Priority Queue)",
+      "leetcodeId": 692,
+      "title": "Top K Frequent Words",
+      "slug": "top-k-frequent-words",
+      "url": "https://leetcode.com/problems/top-k-frequent-words/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-11-top-k-frequent-words.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-11-top-k-frequent-words.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-11-top-k-frequent-words.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-11-top-k-frequent-words.md",
       "difficulty": "Medium"
     }
   ]

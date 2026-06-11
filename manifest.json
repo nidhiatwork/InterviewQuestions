@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-10T04:47:05Z",
+  "generatedAt": "2026-06-11T04:47:02Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-11",
+      "slug": "top-k-frequent-words",
+      "title": "Top K Frequent Words",
+      "leetcodeId": 692,
+      "url": "https://leetcode.com/problems/top-k-frequent-words/",
+      "dataStructure": "Heap (Priority Queue)",
+      "difficulty": "Medium",
+      "filename": "2026-06-11-top-k-frequent-words.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-10",
       "slug": "lowest-common-ancestor-of-a-binary-search-tree",
