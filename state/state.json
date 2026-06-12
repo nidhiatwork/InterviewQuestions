@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 9,
-  "lastPickedDate": "2026-06-11",
+  "rotationIndex": 10,
+  "lastPickedDate": "2026-06-12",
   "lastPicked": {
-    "date": "2026-06-11",
-    "dateIST": "2026-06-11 10:14 IST",
-    "dataStructure": "Heap (Priority Queue)",
-    "leetcodeId": 692,
-    "title": "Top K Frequent Words",
-    "slug": "top-k-frequent-words",
-    "url": "https://leetcode.com/problems/top-k-frequent-words/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-11-top-k-frequent-words.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-11-top-k-frequent-words.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-11-top-k-frequent-words.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-11-top-k-frequent-words.md",
+    "date": "2026-06-12",
+    "dateIST": "2026-06-12 10:08 IST",
+    "dataStructure": "Graph",
+    "leetcodeId": 133,
+    "title": "Clone Graph",
+    "slug": "clone-graph",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-12-clone-graph.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-12-clone-graph.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-12-clone-graph.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-12-clone-graph.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -433,6 +433,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-11-top-k-frequent-words.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-11-top-k-frequent-words.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-11-top-k-frequent-words.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-12",
+      "dateIST": "2026-06-12 10:08 IST",
+      "dataStructure": "Graph",
+      "leetcodeId": 133,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "url": "https://leetcode.com/problems/clone-graph/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-12-clone-graph.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-12-clone-graph.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-12-clone-graph.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-12-clone-graph.md",
       "difficulty": "Medium"
     }
   ]

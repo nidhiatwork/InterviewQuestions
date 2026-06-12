@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-11T04:47:02Z",
+  "generatedAt": "2026-06-12T04:40:43Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-12",
+      "slug": "clone-graph",
+      "title": "Clone Graph",
+      "leetcodeId": 133,
+      "url": "https://leetcode.com/problems/clone-graph/",
+      "dataStructure": "Graph",
+      "difficulty": "Medium",
+      "filename": "2026-06-12-clone-graph.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-11",
       "slug": "top-k-frequent-words",
