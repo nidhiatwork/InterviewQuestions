@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 10,
-  "lastPickedDate": "2026-06-12",
+  "rotationIndex": 11,
+  "lastPickedDate": "2026-06-15",
   "lastPicked": {
-    "date": "2026-06-12",
-    "dateIST": "2026-06-12 10:08 IST",
-    "dataStructure": "Graph",
-    "leetcodeId": 133,
-    "title": "Clone Graph",
-    "slug": "clone-graph",
-    "url": "https://leetcode.com/problems/clone-graph/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-12-clone-graph.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-12-clone-graph.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-12-clone-graph.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-12-clone-graph.md",
+    "date": "2026-06-15",
+    "dateIST": "2026-06-15 08:01 IST",
+    "dataStructure": "Trie",
+    "leetcodeId": 648,
+    "title": "Replace Words",
+    "slug": "replace-words",
+    "url": "https://leetcode.com/problems/replace-words/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-15-replace-words.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-15-replace-words.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-15-replace-words.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-15-replace-words.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -447,6 +447,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-12-clone-graph.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-12-clone-graph.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-12-clone-graph.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-15",
+      "dateIST": "2026-06-15 08:01 IST",
+      "dataStructure": "Trie",
+      "leetcodeId": 648,
+      "title": "Replace Words",
+      "slug": "replace-words",
+      "url": "https://leetcode.com/problems/replace-words/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-15-replace-words.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-15-replace-words.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-15-replace-words.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-15-replace-words.md",
       "difficulty": "Medium"
     }
   ]

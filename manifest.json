@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-12T04:40:43Z",
+  "generatedAt": "2026-06-15T02:33:27Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-15",
+      "slug": "replace-words",
+      "title": "Replace Words",
+      "leetcodeId": 648,
+      "url": "https://leetcode.com/problems/replace-words/",
+      "dataStructure": "Trie",
+      "difficulty": "Medium",
+      "filename": "2026-06-15-replace-words.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-12",
       "slug": "clone-graph",
