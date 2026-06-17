@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-16T04:42:00Z",
+  "generatedAt": "2026-06-17T04:44:07Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-17",
+      "slug": "longest-increasing-subsequence",
+      "title": "Longest Increasing Subsequence",
+      "leetcodeId": 300,
+      "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+      "dataStructure": "Dynamic Programming",
+      "difficulty": "Medium",
+      "filename": "2026-06-17-longest-increasing-subsequence.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-16",
       "slug": "find-peak-element",
