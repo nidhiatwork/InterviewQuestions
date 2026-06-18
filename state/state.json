@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 13,
-  "lastPickedDate": "2026-06-17",
+  "rotationIndex": 0,
+  "lastPickedDate": "2026-06-18",
   "lastPicked": {
-    "date": "2026-06-17",
-    "dateIST": "2026-06-17 10:11 IST",
-    "dataStructure": "Dynamic Programming",
-    "leetcodeId": 300,
-    "title": "Longest Increasing Subsequence",
-    "slug": "longest-increasing-subsequence",
-    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-17-longest-increasing-subsequence.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-17-longest-increasing-subsequence.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-17-longest-increasing-subsequence.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-17-longest-increasing-subsequence.md",
+    "date": "2026-06-18",
+    "dateIST": "2026-06-18 10:10 IST",
+    "dataStructure": "Backtracking",
+    "leetcodeId": 78,
+    "title": "Subsets",
+    "slug": "subsets",
+    "url": "https://leetcode.com/problems/subsets/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-18-subsets.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-18-subsets.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-18-subsets.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-18-subsets.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -489,6 +489,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-17-longest-increasing-subsequence.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-17-longest-increasing-subsequence.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-17-longest-increasing-subsequence.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-18",
+      "dateIST": "2026-06-18 10:10 IST",
+      "dataStructure": "Backtracking",
+      "leetcodeId": 78,
+      "title": "Subsets",
+      "slug": "subsets",
+      "url": "https://leetcode.com/problems/subsets/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-18-subsets.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-18-subsets.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-18-subsets.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-18-subsets.md",
       "difficulty": "Medium"
     }
   ]

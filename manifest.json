@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-17T04:44:07Z",
+  "generatedAt": "2026-06-18T04:42:35Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-18",
+      "slug": "subsets",
+      "title": "Subsets",
+      "leetcodeId": 78,
+      "url": "https://leetcode.com/problems/subsets/",
+      "dataStructure": "Backtracking",
+      "difficulty": "Medium",
+      "filename": "2026-06-18-subsets.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-17",
       "slug": "longest-increasing-subsequence",
