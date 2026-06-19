@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-18T04:42:35Z",
+  "generatedAt": "2026-06-19T04:36:19Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-19",
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "leetcodeId": 238,
+      "url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "dataStructure": "Array",
+      "difficulty": "Medium",
+      "filename": "2026-06-19-product-of-array-except-self.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-18",
       "slug": "subsets",

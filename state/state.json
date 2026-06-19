@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 0,
-  "lastPickedDate": "2026-06-18",
+  "rotationIndex": 1,
+  "lastPickedDate": "2026-06-19",
   "lastPicked": {
-    "date": "2026-06-18",
-    "dateIST": "2026-06-18 10:10 IST",
-    "dataStructure": "Backtracking",
-    "leetcodeId": 78,
-    "title": "Subsets",
-    "slug": "subsets",
-    "url": "https://leetcode.com/problems/subsets/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-18-subsets.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-18-subsets.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-18-subsets.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-18-subsets.md",
+    "date": "2026-06-19",
+    "dateIST": "2026-06-19 10:04 IST",
+    "dataStructure": "Array",
+    "leetcodeId": 238,
+    "title": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-19-product-of-array-except-self.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-19-product-of-array-except-self.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-19-product-of-array-except-self.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-19-product-of-array-except-self.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -503,6 +503,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-18-subsets.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-18-subsets.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-18-subsets.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-19",
+      "dateIST": "2026-06-19 10:04 IST",
+      "dataStructure": "Array",
+      "leetcodeId": 238,
+      "title": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-19-product-of-array-except-self.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-19-product-of-array-except-self.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-19-product-of-array-except-self.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-19-product-of-array-except-self.md",
       "difficulty": "Medium"
     }
   ]
