@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-19T04:36:19Z",
+  "generatedAt": "2026-06-20T04:39:40Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-20",
+      "slug": "subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "leetcodeId": 560,
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+      "dataStructure": "Hash Table",
+      "difficulty": "Medium",
+      "filename": "2026-06-20-subarray-sum-equals-k.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-19",
       "slug": "product-of-array-except-self",
