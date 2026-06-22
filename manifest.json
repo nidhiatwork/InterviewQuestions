@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-20T04:39:40Z",
+  "generatedAt": "2026-06-22T02:37:09Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-22",
+      "slug": "decode-ways",
+      "title": "Decode Ways",
+      "leetcodeId": 91,
+      "url": "https://leetcode.com/problems/decode-ways/",
+      "dataStructure": "String",
+      "difficulty": "Medium",
+      "filename": "2026-06-22-decode-ways.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-20",
       "slug": "subarray-sum-equals-k",

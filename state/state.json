@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 2,
-  "lastPickedDate": "2026-06-20",
+  "rotationIndex": 3,
+  "lastPickedDate": "2026-06-22",
   "lastPicked": {
-    "date": "2026-06-20",
-    "dateIST": "2026-06-20 10:07 IST",
-    "dataStructure": "Hash Table",
-    "leetcodeId": 560,
-    "title": "Subarray Sum Equals K",
-    "slug": "subarray-sum-equals-k",
-    "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-20-subarray-sum-equals-k.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-20-subarray-sum-equals-k.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-20-subarray-sum-equals-k.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-20-subarray-sum-equals-k.md",
+    "date": "2026-06-22",
+    "dateIST": "2026-06-22 08:04 IST",
+    "dataStructure": "String",
+    "leetcodeId": 91,
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-22-decode-ways.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-22-decode-ways.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-22-decode-ways.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-22-decode-ways.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -531,6 +531,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-20-subarray-sum-equals-k.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-20-subarray-sum-equals-k.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-20-subarray-sum-equals-k.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-22",
+      "dateIST": "2026-06-22 08:04 IST",
+      "dataStructure": "String",
+      "leetcodeId": 91,
+      "title": "Decode Ways",
+      "slug": "decode-ways",
+      "url": "https://leetcode.com/problems/decode-ways/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-22-decode-ways.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-22-decode-ways.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-22-decode-ways.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-22-decode-ways.md",
       "difficulty": "Medium"
     }
   ]
