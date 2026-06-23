@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-22T02:37:09Z",
+  "generatedAt": "2026-06-23T04:36:04Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-23",
+      "slug": "linked-list-cycle-ii",
+      "title": "Linked List Cycle II",
+      "leetcodeId": 142,
+      "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+      "dataStructure": "Linked List",
+      "difficulty": "Medium",
+      "filename": "2026-06-23-linked-list-cycle-ii.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-22",
       "slug": "decode-ways",

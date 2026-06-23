@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 3,
-  "lastPickedDate": "2026-06-22",
+  "rotationIndex": 4,
+  "lastPickedDate": "2026-06-23",
   "lastPicked": {
-    "date": "2026-06-22",
-    "dateIST": "2026-06-22 08:04 IST",
-    "dataStructure": "String",
-    "leetcodeId": 91,
-    "title": "Decode Ways",
-    "slug": "decode-ways",
-    "url": "https://leetcode.com/problems/decode-ways/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-22-decode-ways.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-22-decode-ways.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-22-decode-ways.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-22-decode-ways.md",
+    "date": "2026-06-23",
+    "dateIST": "2026-06-23 10:03 IST",
+    "dataStructure": "Linked List",
+    "leetcodeId": 142,
+    "title": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii",
+    "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-23-linked-list-cycle-ii.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-23-linked-list-cycle-ii.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-23-linked-list-cycle-ii.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-23-linked-list-cycle-ii.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -545,6 +545,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-22-decode-ways.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-22-decode-ways.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-22-decode-ways.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-23",
+      "dateIST": "2026-06-23 10:03 IST",
+      "dataStructure": "Linked List",
+      "leetcodeId": 142,
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-23-linked-list-cycle-ii.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-23-linked-list-cycle-ii.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-23-linked-list-cycle-ii.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-23-linked-list-cycle-ii.md",
       "difficulty": "Medium"
     }
   ]
