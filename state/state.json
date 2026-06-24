@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 4,
-  "lastPickedDate": "2026-06-23",
+  "rotationIndex": 5,
+  "lastPickedDate": "2026-06-24",
   "lastPicked": {
-    "date": "2026-06-23",
-    "dateIST": "2026-06-23 10:03 IST",
-    "dataStructure": "Linked List",
-    "leetcodeId": 142,
-    "title": "Linked List Cycle II",
-    "slug": "linked-list-cycle-ii",
-    "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-23-linked-list-cycle-ii.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-23-linked-list-cycle-ii.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-23-linked-list-cycle-ii.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-23-linked-list-cycle-ii.md",
+    "date": "2026-06-24",
+    "dateIST": "2026-06-24 10:04 IST",
+    "dataStructure": "Stack",
+    "leetcodeId": 394,
+    "title": "Decode String",
+    "slug": "decode-string",
+    "url": "https://leetcode.com/problems/decode-string/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-24-decode-string.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-24-decode-string.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-24-decode-string.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-24-decode-string.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -559,6 +559,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-23-linked-list-cycle-ii.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-23-linked-list-cycle-ii.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-23-linked-list-cycle-ii.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-24",
+      "dateIST": "2026-06-24 10:04 IST",
+      "dataStructure": "Stack",
+      "leetcodeId": 394,
+      "title": "Decode String",
+      "slug": "decode-string",
+      "url": "https://leetcode.com/problems/decode-string/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-24-decode-string.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-24-decode-string.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-24-decode-string.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-24-decode-string.md",
       "difficulty": "Medium"
     }
   ]
