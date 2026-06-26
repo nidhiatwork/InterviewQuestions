@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 5,
-  "lastPickedDate": "2026-06-24",
+  "rotationIndex": 6,
+  "lastPickedDate": "2026-06-26",
   "lastPicked": {
-    "date": "2026-06-24",
-    "dateIST": "2026-06-24 10:04 IST",
-    "dataStructure": "Stack",
-    "leetcodeId": 394,
-    "title": "Decode String",
-    "slug": "decode-string",
-    "url": "https://leetcode.com/problems/decode-string/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-24-decode-string.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-24-decode-string.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-24-decode-string.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-24-decode-string.md",
+    "date": "2026-06-26",
+    "dateIST": "2026-06-26 10:06 IST",
+    "dataStructure": "Queue",
+    "leetcodeId": 649,
+    "title": "Dota2 Senate",
+    "slug": "dota2-senate",
+    "url": "https://leetcode.com/problems/dota2-senate/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-26-dota2-senate.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-26-dota2-senate.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-26-dota2-senate.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-26-dota2-senate.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -573,6 +573,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-24-decode-string.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-24-decode-string.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-24-decode-string.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-26",
+      "dateIST": "2026-06-26 10:06 IST",
+      "dataStructure": "Queue",
+      "leetcodeId": 649,
+      "title": "Dota2 Senate",
+      "slug": "dota2-senate",
+      "url": "https://leetcode.com/problems/dota2-senate/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-26-dota2-senate.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-26-dota2-senate.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-26-dota2-senate.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-26-dota2-senate.md",
       "difficulty": "Medium"
     }
   ]

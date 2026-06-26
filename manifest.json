@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-24T04:36:40Z",
+  "generatedAt": "2026-06-26T04:38:56Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-26",
+      "slug": "dota2-senate",
+      "title": "Dota2 Senate",
+      "leetcodeId": 649,
+      "url": "https://leetcode.com/problems/dota2-senate/",
+      "dataStructure": "Queue",
+      "difficulty": "Medium",
+      "filename": "2026-06-26-dota2-senate.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-24",
       "slug": "decode-string",
