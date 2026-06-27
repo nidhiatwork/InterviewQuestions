@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-26T04:38:56Z",
+  "generatedAt": "2026-06-27T04:51:43Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-27",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "leetcodeId": 105,
+      "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      "dataStructure": "Binary Tree",
+      "difficulty": "Medium",
+      "filename": "2026-06-27-construct-binary-tree-from-preorder-and-inorder-traversal.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-26",
       "slug": "dota2-senate",
