@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-27T04:51:43Z",
+  "generatedAt": "2026-06-28T04:49:41Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-28",
+      "slug": "binary-search-tree-iterator",
+      "title": "Binary Search Tree Iterator",
+      "leetcodeId": 173,
+      "url": "https://leetcode.com/problems/binary-search-tree-iterator/",
+      "dataStructure": "Binary Search Tree",
+      "difficulty": "Medium",
+      "filename": "2026-06-28-binary-search-tree-iterator.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-27",
       "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
