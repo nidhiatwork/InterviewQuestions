@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 8,
-  "lastPickedDate": "2026-06-28",
+  "rotationIndex": 9,
+  "lastPickedDate": "2026-06-29",
   "lastPicked": {
-    "date": "2026-06-28",
-    "dateIST": "2026-06-28 10:16 IST",
-    "dataStructure": "Binary Search Tree",
-    "leetcodeId": 173,
-    "title": "Binary Search Tree Iterator",
-    "slug": "binary-search-tree-iterator",
-    "url": "https://leetcode.com/problems/binary-search-tree-iterator/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-28-binary-search-tree-iterator.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-28-binary-search-tree-iterator.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-28-binary-search-tree-iterator.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-28-binary-search-tree-iterator.md",
+    "date": "2026-06-29",
+    "dateIST": "2026-06-29 10:10 IST",
+    "dataStructure": "Heap (Priority Queue)",
+    "leetcodeId": 973,
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-29-k-closest-points-to-origin.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-29-k-closest-points-to-origin.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-29-k-closest-points-to-origin.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-29-k-closest-points-to-origin.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -615,6 +615,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-28-binary-search-tree-iterator.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-28-binary-search-tree-iterator.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-28-binary-search-tree-iterator.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-29",
+      "dateIST": "2026-06-29 10:10 IST",
+      "dataStructure": "Heap (Priority Queue)",
+      "leetcodeId": 973,
+      "title": "K Closest Points to Origin",
+      "slug": "k-closest-points-to-origin",
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-29-k-closest-points-to-origin.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-29-k-closest-points-to-origin.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-29-k-closest-points-to-origin.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-29-k-closest-points-to-origin.md",
       "difficulty": "Medium"
     }
   ]

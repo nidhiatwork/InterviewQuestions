@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-28T04:49:41Z",
+  "generatedAt": "2026-06-29T04:42:58Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-29",
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "leetcodeId": 973,
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+      "dataStructure": "Heap (Priority Queue)",
+      "difficulty": "Medium",
+      "filename": "2026-06-29-k-closest-points-to-origin.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-28",
       "slug": "binary-search-tree-iterator",
