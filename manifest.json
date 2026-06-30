@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-06-29T04:42:58Z",
+  "generatedAt": "2026-06-30T04:47:24Z",
   "repoUrl": "https://github.com/nidhiatwork/InterviewQuestions",
   "questions": [
+    {
+      "date": "2026-06-30",
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
+      "leetcodeId": 994,
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "dataStructure": "Graph",
+      "difficulty": "Medium",
+      "filename": "2026-06-30-rotting-oranges.py",
+      "hasVisualizer": false
+    },
     {
       "date": "2026-06-29",
       "slug": "k-closest-points-to-origin",

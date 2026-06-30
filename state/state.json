@@ -16,20 +16,20 @@
     "Dynamic Programming",
     "Backtracking"
   ],
-  "rotationIndex": 9,
-  "lastPickedDate": "2026-06-29",
+  "rotationIndex": 10,
+  "lastPickedDate": "2026-06-30",
   "lastPicked": {
-    "date": "2026-06-29",
-    "dateIST": "2026-06-29 10:10 IST",
-    "dataStructure": "Heap (Priority Queue)",
-    "leetcodeId": 973,
-    "title": "K Closest Points to Origin",
-    "slug": "k-closest-points-to-origin",
-    "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
-    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-29-k-closest-points-to-origin.py",
-    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-29-k-closest-points-to-origin.py",
-    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-29-k-closest-points-to-origin.md",
-    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-29-k-closest-points-to-origin.md",
+    "date": "2026-06-30",
+    "dateIST": "2026-06-30 10:14 IST",
+    "dataStructure": "Graph",
+    "leetcodeId": 994,
+    "title": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-30-rotting-oranges.py",
+    "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-30-rotting-oranges.py",
+    "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-30-rotting-oranges.md",
+    "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-30-rotting-oranges.md",
     "difficulty": "Medium"
   },
   "askedQuestions": [
@@ -629,6 +629,20 @@
       "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-29-k-closest-points-to-origin.py",
       "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-29-k-closest-points-to-origin.md",
       "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-29-k-closest-points-to-origin.md",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2026-06-30",
+      "dateIST": "2026-06-30 10:14 IST",
+      "dataStructure": "Graph",
+      "leetcodeId": 994,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "solutionPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\playground\\2026-06-30-rotting-oranges.py",
+      "solutionFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/playground/2026-06-30-rotting-oranges.py",
+      "solutionMarkdownPath": "C:\\Users\\bhushanidhi\\.copilot\\skills\\dsa-daily\\solutions\\2026-06-30-rotting-oranges.md",
+      "solutionMarkdownFileUrl": "file:///C:/Users/bhushanidhi/.copilot/skills/dsa-daily/solutions/2026-06-30-rotting-oranges.md",
       "difficulty": "Medium"
     }
   ]
